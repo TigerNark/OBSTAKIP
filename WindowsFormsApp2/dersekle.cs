@@ -21,5 +21,21 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            //ders ekle kapatma butonu
+            akademisyen a = new akademisyen();
+            a.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //ders ekle kapatma butonu
+            akademisyen a = new akademisyen();
+            a.Show();
+            this.Close();
+        }
     }
 }

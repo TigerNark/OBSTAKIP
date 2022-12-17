@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Form2 : Form
+    public partial class akademisyen : Form
     {
-        public Form2()
+        public akademisyen()
         {
             InitializeComponent();
         }
@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
 
         private void button4_Click(object sender, EventArgs e)
         {
-           notBilgileri frm = new notBilgileri();
+           notGiris frm = new notGiris();
             frm.Show();
             this.Hide();
         }
@@ -65,6 +65,13 @@ namespace WindowsFormsApp2
         }
 
         private void button7_Click(object sender, EventArgs e)
+        {
+            anaGiris aa = new anaGiris();
+            aa.Show();
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

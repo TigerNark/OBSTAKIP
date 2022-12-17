@@ -14,7 +14,7 @@ namespace WindowsFormsApp2
         {
             //akademisyen login butonu
 
-            Form2 frm = new Form2();
+            akademisyen frm = new akademisyen();
             frm.Show();
             this.Hide();
 
@@ -41,7 +41,7 @@ namespace WindowsFormsApp2
             
             sifreUnuttum sifre = new sifreUnuttum();
             sifre.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -86,6 +86,49 @@ namespace WindowsFormsApp2
         private void groupBox1_Enter(object sender, EventArgs e)
         {
             //akademisyen groupbox
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // şifremi unuttum
+            sifreUnuttum sfr = new sifreUnuttum();
+            sfr.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //akademisyen giriş
+            akademisyen aka = new akademisyen();
+            aka.Show();
+            this.Hide();
+            
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            // öğrenci giriş
+            ogrenciGirisi ogr = new ogrenciGirisi();
+            ogr.Show();
+            this.Hide();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            // akademisyen giriş butonu
+            akademisyen grs = new akademisyen();
+            grs.Show();
+            this.Hide();
         }
     }
 }

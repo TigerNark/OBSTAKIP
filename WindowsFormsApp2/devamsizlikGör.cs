@@ -10,32 +10,17 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class ogrenciSorgulama : Form
+    public partial class devamsizlik : Form
     {
-        public ogrenciSorgulama()
+        public devamsizlik()
         {
             InitializeComponent();
         }
 
-        private void ogr_gor_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button7_Click(object sender, EventArgs e)
         {
-            // öğrenci sorgulama çıkış butonu
-            akademisyen a = new akademisyen();
+            // devamsızlık görüntüleme kapatma butonu
+            ogrenciGirisi a = new ogrenciGirisi();
             a.Show();
             this.Close();
         }

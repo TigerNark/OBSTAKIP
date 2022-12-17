@@ -24,6 +24,8 @@ namespace WindowsFormsApp2
 
         private void button7_Click(object sender, EventArgs e)
         {
+            anaGiris ana = new anaGiris();
+            ana.Show();
             this.Close();
         }
 
@@ -65,6 +67,16 @@ namespace WindowsFormsApp2
         }
 
         private void ogrenciGirisi_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

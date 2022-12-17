@@ -52,11 +52,11 @@
     <Compile Include="anaGiris.Designer.cs">
       <DependentUpon>anaGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="akademisyenGirisi.cs">
+    <Compile Include="akademisyen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="akademisyenGirisi.Designer.cs">
-      <DependentUpon>akademisyenGirisi.cs</DependentUpon>
+    <Compile Include="akademisyen.Designer.cs">
+      <DependentUpon>akademisyen.cs</DependentUpon>
     </Compile>
     <Compile Include="dersEkle.cs">
       <SubType>Form</SubType>
@@ -75,6 +75,12 @@
     </Compile>
     <Compile Include="devamsızlik.Designer.cs">
       <DependentUpon>devamsızlik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="notBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="notBilgileri.Designer.cs">
+      <DependentUpon>notBilgileri.cs</DependentUpon>
     </Compile>
     <Compile Include="kisiselBilgi.cs">
       <SubType>Form</SubType>
@@ -106,11 +112,11 @@
     <Compile Include="yeniKayit.Designer.cs">
       <DependentUpon>yeniKayit.cs</DependentUpon>
     </Compile>
-    <Compile Include="notBilgileri.cs">
+    <Compile Include="notGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="notBilgileri.Designer.cs">
-      <DependentUpon>notBilgileri.cs</DependentUpon>
+    <Compile Include="notGiris.Designer.cs">
+      <DependentUpon>notGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="ogrenciSorgulama.cs">
       <SubType>Form</SubType>
@@ -120,8 +126,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="akademisyenGirisi.resx">
-      <DependentUpon>akademisyenGirisi.cs</DependentUpon>
+    <EmbeddedResource Include="akademisyen.resx">
+      <DependentUpon>akademisyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="anaGiris.resx">
       <DependentUpon>anaGiris.cs</DependentUpon>
@@ -138,11 +144,14 @@
     <EmbeddedResource Include="kisiselBilgi.resx">
       <DependentUpon>kisiselBilgi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="notBilgileri.resx">
+      <DependentUpon>notBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ogrenciGirisi.resx">
       <DependentUpon>ogrenciGirisi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="notBilgileri.resx">
-      <DependentUpon>notBilgileri.cs</DependentUpon>
+    <EmbeddedResource Include="notGiris.resx">
+      <DependentUpon>notGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciSorgulama.resx">
       <DependentUpon>ogrenciSorgulama.cs</DependentUpon>

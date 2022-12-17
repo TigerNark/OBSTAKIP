@@ -17,23 +17,12 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void not_bil_Load(object sender, EventArgs e)
-        {
-
-
-
-
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
+            // not bilgileri çıkış butonu
+            ogrenciGirisi not = new ogrenciGirisi();
+            not.Show();
+            this.Close();
         }
     }
 }

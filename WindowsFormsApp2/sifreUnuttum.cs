@@ -35,6 +35,13 @@ namespace WindowsFormsApp2
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
+            anaGiris basla = new anaGiris();
+            basla.Show();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

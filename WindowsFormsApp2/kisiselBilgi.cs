@@ -92,5 +92,13 @@ namespace WindowsFormsApp2
             ogr.Show(); 
             
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // pakatma butonu
+            ogrenciGirisi o = new ogrenciGirisi();
+            o.Show();
+            this.Close();
+        }
     }
 }

@@ -26,9 +26,14 @@ namespace WindowsFormsApp2
 
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            // KAPAT butonu
+            // ders programı kapatma butonu 
             ogrenciGirisi drs = new ogrenciGirisi();
             drs.Show();
             this.Close();

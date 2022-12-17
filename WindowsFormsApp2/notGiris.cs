@@ -10,31 +10,35 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class ogrenciSorgulama : Form
+    public partial class notGiris : Form
     {
-        public ogrenciSorgulama()
+        public notGiris()
         {
             InitializeComponent();
         }
 
-        private void ogr_gor_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void not_bil_Load(object sender, EventArgs e)
         {
+
+
+
+
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            // öğrenci sorgulama çıkış butonu
+            // not bilgileri çıkış butonu
             akademisyen a = new akademisyen();
             a.Show();
             this.Close();
