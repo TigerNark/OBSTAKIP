@@ -59,6 +59,7 @@
             this.ClientSize = new System.Drawing.Size(965, 462);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buton100);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "devamsizlikGör";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
