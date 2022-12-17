@@ -39,11 +39,19 @@ namespace WindowsFormsApp2
         private void button2_Click(object sender, EventArgs e)
         {
             //Not bilgileri butonu
+
+            notBilgileri not = new notBilgileri();
+            not.Show();
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //ÖĞrenci görüntüleme butonu
+            //öğrenci bilgileri butonu
+            kisiselBilgi info = new kisiselBilgi();
+            info.Show();
+            this.Close();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
