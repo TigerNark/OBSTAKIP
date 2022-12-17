@@ -70,11 +70,17 @@
     <Compile Include="dersekle.Designer.cs">
       <DependentUpon>dersekle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="sifreUnuttum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="sifreUnuttum.Designer.cs">
+      <DependentUpon>sifreUnuttum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenciBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ogrenciBilgi.Designer.cs">
+      <DependentUpon>ogrenciBilgi.cs</DependentUpon>
     </Compile>
     <Compile Include="sil.cs">
       <SubType>Form</SubType>
@@ -108,8 +114,8 @@
     <EmbeddedResource Include="Ana_giris.resx">
       <DependentUpon>Ana_giris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="ogrenciBilgi.resx">
+      <DependentUpon>ogrenciBilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="not_bil.resx">
       <DependentUpon>not_bil.cs</DependentUpon>
@@ -126,6 +132,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="sifreUnuttum.resx">
+      <DependentUpon>sifreUnuttum.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
