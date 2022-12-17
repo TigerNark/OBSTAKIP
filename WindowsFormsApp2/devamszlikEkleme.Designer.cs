@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class devamsızlik
+    partial class devamszlikEkleme
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(devamsızlik));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(devamszlikEkleme));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,25 +57,37 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // devamsızlik
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(340, 206);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(190, 13);
+            this.label1.TabIndex = 45;
+            this.label1.Text = "akademisyen devamsızlık ekleme page";
+            // 
+            // devamszlikEkleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 462);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "devamsızlik";
+            this.Name = "devamszlikEkleme";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.devamsızlık_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label1;
     }
 }

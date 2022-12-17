@@ -20,6 +20,9 @@ namespace WindowsFormsApp2
         private void button6_Click(object sender, EventArgs e)
         {
             //Akadenik takvim butonu
+            takvim t = new takvim();
+            t.Show();
+            this.Close();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -59,11 +62,18 @@ namespace WindowsFormsApp2
         private void button4_Click(object sender, EventArgs e)
         {
             //Transkripsiyon butonu
+            trans a = new trans();
+            a.Show();
+            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //Devamsızlık Butonu
+            //Devamsızlık Sorgulama Butonu
+            devamsizlikGör dvm = new devamsizlikGör();
+            dvm.Show();
+            this.Close();
+
         }
 
         private void ogrenciGirisi_Load(object sender, EventArgs e)

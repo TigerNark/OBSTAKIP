@@ -70,11 +70,29 @@
     <Compile Include="dersProgrami.Designer.cs">
       <DependentUpon>dersProgrami.cs</DependentUpon>
     </Compile>
-    <Compile Include="devamsızlik.cs">
+    <Compile Include="devamszlikEkleme.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="devamsızlik.Designer.cs">
-      <DependentUpon>devamsızlik.cs</DependentUpon>
+    <Compile Include="devamszlikEkleme.Designer.cs">
+      <DependentUpon>devamszlikEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="devamsizlikGör.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="devamsizlikGör.Designer.cs">
+      <DependentUpon>devamsizlikGör.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takvim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takvim.Designer.cs">
+      <DependentUpon>takvim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="trans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trans.Designer.cs">
+      <DependentUpon>trans.cs</DependentUpon>
     </Compile>
     <Compile Include="notBilgileri.cs">
       <SubType>Form</SubType>
@@ -138,8 +156,11 @@
     <EmbeddedResource Include="dersProgrami.resx">
       <DependentUpon>dersProgrami.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="devamsızlik.resx">
-      <DependentUpon>devamsızlik.cs</DependentUpon>
+    <EmbeddedResource Include="devamsizlikGör.resx">
+      <DependentUpon>devamsizlikGör.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="devamszlikEkleme.resx">
+      <DependentUpon>devamszlikEkleme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kisiselBilgi.resx">
       <DependentUpon>kisiselBilgi.cs</DependentUpon>
@@ -170,6 +191,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="sil.resx">
       <DependentUpon>sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takvim.resx">
+      <DependentUpon>takvim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trans.resx">
+      <DependentUpon>trans.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="yeniKayit.resx">
       <DependentUpon>yeniKayit.cs</DependentUpon>

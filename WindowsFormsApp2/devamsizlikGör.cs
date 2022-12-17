@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class devamsizlik : Form
+    public partial class devamsizlikGör : Form
     {
-        public devamsizlik()
+        public devamsizlikGör()
         {
             InitializeComponent();
         }
