@@ -159,6 +159,9 @@
     <EmbeddedResource Include="sifreUnuttum.resx">
       <DependentUpon>sifreUnuttum.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="yeniKayit.resx">
+      <DependentUpon>yeniKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\DataSources\anaGiris.datasource" />
     <None Include="Properties\DataSources\dersEkle.datasource" />
     <None Include="Properties\DataSources\dersProgrami.datasource" />
