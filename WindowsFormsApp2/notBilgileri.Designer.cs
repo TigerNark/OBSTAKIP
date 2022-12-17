@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp2
 {
-    partial class not_bil
+    partial class notBilgileri
     {
         /// <summary>
         /// Required designer variable.

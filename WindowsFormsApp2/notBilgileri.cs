@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class not_bil : Form
+    public partial class notBilgileri : Form
     {
-        public not_bil()
+        public notBilgileri()
         {
             InitializeComponent();
         }

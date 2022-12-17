@@ -24,14 +24,14 @@ namespace WindowsFormsApp2
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            ogr_gor frm = new ogr_gor();
+            ogrenciSorgulama frm = new ogrenciSorgulama();
             frm.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            yenikay frm = new yenikay();
+            yeniKayit frm = new yeniKayit();
             frm.Show();
             this.Hide();
         }
@@ -45,7 +45,7 @@ namespace WindowsFormsApp2
 
         private void button4_Click(object sender, EventArgs e)
         {
-           not_bil frm = new not_bil();
+           notBilgileri frm = new notBilgileri();
             frm.Show();
             this.Hide();
         }
@@ -59,7 +59,7 @@ namespace WindowsFormsApp2
 
         private void button6_Click(object sender, EventArgs e)
         {
-           dersekle frm = new dersekle();
+           dersEkle frm = new dersEkle();
             frm.Show();
             this.Hide();
         }

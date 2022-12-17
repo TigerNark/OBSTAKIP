@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class Ana_giris
+    partial class anaGiris
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ana_giris));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(anaGiris));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();

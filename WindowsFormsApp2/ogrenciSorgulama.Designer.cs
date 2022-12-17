@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp2
 {
-    partial class ogr_gor
+    partial class ogrenciSorgulama
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ogr_gor));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ogrenciSorgulama));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -125,7 +125,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ogr_gor";
-            this.Text = "Öğrenci Görüntüleme";
+            this.Text = "grenciGoruntulemek";
             this.Load += new System.EventHandler(this.ogr_gor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

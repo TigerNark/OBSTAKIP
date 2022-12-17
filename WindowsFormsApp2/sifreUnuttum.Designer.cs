@@ -40,7 +40,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(352, 311);
+            this.button1.Location = new System.Drawing.Point(343, 296);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 32);
             this.button1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(288, 279);
+            this.label1.Location = new System.Drawing.Point(279, 264);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(287, 18);
             this.label1.TabIndex = 1;
@@ -96,7 +96,7 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button7.Location = new System.Drawing.Point(380, 365);
+            this.button7.Location = new System.Drawing.Point(371, 350);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(98, 38);
             this.button7.TabIndex = 8;
@@ -117,7 +117,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "sifreUnuttum";
-            this.Text = "Form1";
+            this.Text = "sifreUnuttum";
             this.Load += new System.EventHandler(this.sifreUnuttum_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

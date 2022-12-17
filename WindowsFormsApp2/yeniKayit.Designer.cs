@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp2
 {
-    partial class yenikay
+    partial class yeniKayit
     {
         /// <summary>
         /// Required designer variable.

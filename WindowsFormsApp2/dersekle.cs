@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class dersekle : Form
+    public partial class dersEkle : Form
     {
-        public dersekle()
+        public dersEkle()
         {
             InitializeComponent();
+        }
+
+        private void dersEkle_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

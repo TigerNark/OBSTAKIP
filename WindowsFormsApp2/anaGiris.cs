@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class Ana_giris : Form
+    public partial class anaGiris : Form
     {
-        public Ana_giris()
+        public anaGiris()
         {
             InitializeComponent();
         }
@@ -27,7 +27,7 @@ namespace WindowsFormsApp2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ogrenciBilgi frm = new ogrenciBilgi();
+            ogrenciGirisi frm = new ogrenciGirisi();
             frm.Show();
             this.Hide();
         }

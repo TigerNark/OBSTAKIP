@@ -1,7 +1,6 @@
-﻿
-namespace WindowsFormsApp2
+﻿namespace WindowsFormsApp2
 {
-    partial class dersEkle
+    partial class dersProgrami
     {
         /// <summary>
         /// Required designer variable.
@@ -29,20 +28,33 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // dersEkle
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(691, 399);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "GERİ";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // dersProgrami
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "dersEkle";
-            this.Text = "Form3";
-            this.Load += new System.EventHandler(this.dersEkle_Load);
+            this.Controls.Add(this.button1);
+            this.Name = "dersProgrami";
+            this.Text = "Ders Programı";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
     }
 }
