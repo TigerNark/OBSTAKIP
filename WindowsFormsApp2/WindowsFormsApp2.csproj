@@ -159,6 +159,9 @@
     <EmbeddedResource Include="sifreUnuttum.resx">
       <DependentUpon>sifreUnuttum.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sil.resx">
+      <DependentUpon>sil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="yeniKayit.resx">
       <DependentUpon>yeniKayit.cs</DependentUpon>
     </EmbeddedResource>
