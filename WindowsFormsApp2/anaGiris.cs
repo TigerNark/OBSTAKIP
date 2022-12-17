@@ -38,6 +38,10 @@ namespace WindowsFormsApp2
         private void button3_Click(object sender, EventArgs e)
         {
             //Şİfremi unuttum butonu
+            
+            sifreUnuttum sifre = new sifreUnuttum();
+            sifre.Show();
+            this.Close();
         }
 
         private void label4_Click(object sender, EventArgs e)
