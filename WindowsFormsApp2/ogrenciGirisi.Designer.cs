@@ -49,7 +49,7 @@ namespace WindowsFormsApp2
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(140, 62);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Öğrenci Görüntüleme";
+            this.button1.Text = "Bilgilerim";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -158,6 +158,7 @@ namespace WindowsFormsApp2
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ogrenciGirisi";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.ogrenciGirisi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

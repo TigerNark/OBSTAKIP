@@ -52,7 +52,7 @@ namespace WindowsFormsApp2
 
         private void button5_Click(object sender, EventArgs e)
         {
-            devam frm = new devam();
+            devamsızlik frm = new devamsızlik();
             frm.Show();
             this.Hide();
         }

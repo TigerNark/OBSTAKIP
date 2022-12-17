@@ -63,5 +63,10 @@ namespace WindowsFormsApp2
         {
             //Devamsızlık Butonu
         }
+
+        private void ogrenciGirisi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

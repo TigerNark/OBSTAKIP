@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // şifremi getir
         }
 
         private void button7_Click(object sender, EventArgs e)

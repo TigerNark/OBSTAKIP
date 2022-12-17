@@ -1,7 +1,6 @@
-﻿
-namespace WindowsFormsApp2
+﻿namespace WindowsFormsApp2
 {
-    partial class devam
+    partial class devamsızlik
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +28,18 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // devamsızlık
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form3";
+            this.Name = "devamsızlık";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.devamsızlık_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

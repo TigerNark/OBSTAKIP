@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class devam : Form
+    public partial class devamsızlik : Form
     {
-        public devam()
+        public devamsızlik()
         {
             InitializeComponent();
+        }
+
+        private void devamsızlık_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
