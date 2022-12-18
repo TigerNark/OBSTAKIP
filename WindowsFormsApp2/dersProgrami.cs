@@ -7,18 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
 
 namespace WindowsFormsApp2
 {
     public partial class dersProgrami : Form
     {
+
+
+
         public dersProgrami()
         {
             InitializeComponent();
-            /*OpenFileDialog file = new OpenFileDialog();
-            string path = file.FileName;
-            string baglantiAdresi = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + path + ";Extended Properties='Excel 12.0;IMEX=1;'";
-        */
+       
+        }
+
+        OleDbConnection baglanti = new OleDbConnection(
+            @"Provider=Microsoft.ACE.OLEDB.12.0;
+            Data Source=cSharpProje.xlsx;
+            Extended Properties='Excel 12.0 Xml;HDR=YES'");
+        void Veriler()
+        {
+            OleDbDataAdapter da = new OleDbDataAdapter("SELECT *FROM [dersProgrami$]", baglanti);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -37,6 +51,16 @@ namespace WindowsFormsApp2
             ogrenciGirisi drs = new ogrenciGirisi();
             drs.Show();
             this.Close();
+        }
+
+        private void dersProgrami_Load(object sender, EventArgs e)
+        {
+            Veriler();
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
