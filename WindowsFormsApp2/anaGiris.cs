@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-
+using System.Data.OleDb;
 namespace WindowsFormsApp2
 {
     public partial class anaGiris : Form
@@ -10,6 +10,13 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Proje\cSharpProje.xlsx ;Extended Properties=Excel 12.0 Xml; HDR=YES;");
+
+        void Veriler()
+        {
+            OleDbDataAdapter da = new OleDbDataAdapter("Select * Form [ogrensif$]", baglanti);
+            
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             //akademisyen login butonu
@@ -67,7 +74,7 @@ namespace WindowsFormsApp2
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
             //öğrenci k.adı 
-
+           
 
         }
 
@@ -145,6 +152,27 @@ namespace WindowsFormsApp2
             {
                 textBox3.PasswordChar = '*';
             }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (((int)e.KeyChar >= 48 )  || (int)e.KeyChar <= 57)
+            {
+                e.Handled = false;//eğer rakamsa  yazdır.
+            }
+            else if ((int)e.KeyChar == 8)
+            {
+                e.Handled = false;//eğer basılan tuş backspace ise yazdır.
+            }
+            else
+            {
+                e.Handled = true;//bunların dışındaysa hiçbirisini yazdırma
+            }
+        }
+
+        private void anaGiris_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
