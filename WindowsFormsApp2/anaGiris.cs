@@ -74,7 +74,9 @@ namespace WindowsFormsApp2
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             //öğrenci şifre 
-
+           
+                textBox3.PasswordChar = '*';
+         
 
         }
 
@@ -129,6 +131,20 @@ namespace WindowsFormsApp2
             akademisyen grs = new akademisyen();
             grs.Show();
             this.Hide();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                //karakteri göster.
+                textBox3.PasswordChar = '\0';
+            }
+            //değilse karakterlerin yerine * koy.
+            else
+            {
+                textBox3.PasswordChar = '*';
+            }
         }
     }
 }
