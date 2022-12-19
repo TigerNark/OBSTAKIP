@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.Data;
+using System.Linq;
+
 namespace WindowsFormsApp2
 {
     public partial class anaGiris : Form
@@ -15,6 +18,9 @@ namespace WindowsFormsApp2
         void Veriler()
         {
             OleDbDataAdapter da = new OleDbDataAdapter("Select * Form [ogrensif$]", baglanti);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            
             
         }
         private void button1_Click(object sender, EventArgs e)
@@ -121,6 +127,7 @@ namespace WindowsFormsApp2
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            
             // öğrenci giriş
             ogrenciGirisi ogr = new ogrenciGirisi();
             ogr.Show();
