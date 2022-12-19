@@ -71,7 +71,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(293, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(323, 25);
+            this.label2.Size = new System.Drawing.Size(359, 29);
             this.label2.TabIndex = 46;
             this.label2.Text = "DEVAMSIZLIK GÜNCELLEME";
             // 
@@ -101,9 +101,11 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(0, 202);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 46;
             this.dataGridView1.Size = new System.Drawing.Size(965, 262);
             this.dataGridView1.TabIndex = 65;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
