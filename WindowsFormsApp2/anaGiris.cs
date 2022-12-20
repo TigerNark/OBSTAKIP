@@ -196,5 +196,29 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            akasif.PasswordChar = '*';
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                //karakteri göster.
+                akasif.PasswordChar = '\0';
+            }
+            //değilse karakterlerin yerine * koy.
+            else
+            {
+                akasif.PasswordChar = '*';
+            }
+        }
+
+        private void akamail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
