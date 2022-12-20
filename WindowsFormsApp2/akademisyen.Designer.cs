@@ -46,7 +46,7 @@ namespace WindowsFormsApp2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button2.Location = new System.Drawing.Point(455, 140);
+            this.button2.Location = new System.Drawing.Point(409, 146);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 64);
             this.button2.TabIndex = 2;
@@ -58,7 +58,7 @@ namespace WindowsFormsApp2
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button3.Location = new System.Drawing.Point(691, 140);
+            this.button3.Location = new System.Drawing.Point(645, 146);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(152, 64);
             this.button3.TabIndex = 3;
@@ -70,7 +70,7 @@ namespace WindowsFormsApp2
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button4.Location = new System.Drawing.Point(188, 293);
+            this.button4.Location = new System.Drawing.Point(142, 299);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(152, 64);
             this.button4.TabIndex = 4;
@@ -82,7 +82,7 @@ namespace WindowsFormsApp2
             // 
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button5.Location = new System.Drawing.Point(455, 293);
+            this.button5.Location = new System.Drawing.Point(409, 299);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(152, 64);
             this.button5.TabIndex = 5;
@@ -95,7 +95,7 @@ namespace WindowsFormsApp2
             this.button6.BackColor = System.Drawing.Color.White;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button6.Location = new System.Drawing.Point(691, 293);
+            this.button6.Location = new System.Drawing.Point(645, 299);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(152, 64);
             this.button6.TabIndex = 6;
@@ -119,9 +119,9 @@ namespace WindowsFormsApp2
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(286, 27);
+            this.label1.Location = new System.Drawing.Point(356, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(264, 31);
+            this.label1.Size = new System.Drawing.Size(237, 29);
             this.label1.TabIndex = 8;
             this.label1.Text = "Akademisyen Girişi";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -130,7 +130,7 @@ namespace WindowsFormsApp2
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.Location = new System.Drawing.Point(188, 145);
+            this.button1.Location = new System.Drawing.Point(142, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 59);
             this.button1.TabIndex = 9;
