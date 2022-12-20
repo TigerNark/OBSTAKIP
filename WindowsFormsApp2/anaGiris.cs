@@ -154,8 +154,34 @@ namespace WindowsFormsApp2
             this.Close();
         }
 
+        OleDbConnection con1;
+        OleDbCommand cmd1;
+        OleDbDataReader dr1;
+
         private void button1_Click_2(object sender, EventArgs e)
         {
+            string ad = akamail.Text;
+            string sifre = akasif.Text;
+            con1 = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
+            cmd1 = new OleDbCommand();
+            con1.Open();
+            cmd1.Connection = con1;
+            cmd1.CommandText = "SELECT * FROM Login where akademikmail='" + akamail.Text + "' AND akademiksifre='" + akasif.Text + "'";
+            dr1 = cmd1.ExecuteReader();
+            if (dr1.Read())
+            {
+                MessageBox.Show("Giriş Başarılı");
+                akademisyen aka2 = new akademisyen();
+                aka2.Show();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı ya da şifre yanlış");
+            }
+
+            con1.Close();
+
+
             // akademisyen giriş butonu
             akademisyen grs = new akademisyen();
             grs.Show();
