@@ -42,8 +42,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.ogrsif = new System.Windows.Forms.TextBox();
+            this.ogrno = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -149,8 +149,8 @@
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.ogrsif);
+            this.groupBox2.Controls.Add(this.ogrno);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.Location = new System.Drawing.Point(501, 24);
@@ -205,26 +205,26 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Şifre:";
             // 
-            // textBox3
+            // ogrsif
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.textBox3.Location = new System.Drawing.Point(168, 220);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(190, 19);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.ogrsif.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ogrsif.Location = new System.Drawing.Point(168, 220);
+            this.ogrsif.Multiline = true;
+            this.ogrsif.Name = "ogrsif";
+            this.ogrsif.Size = new System.Drawing.Size(190, 19);
+            this.ogrsif.TabIndex = 2;
+            this.ogrsif.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // ogrno
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.textBox4.Location = new System.Drawing.Point(168, 180);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(190, 20);
-            this.textBox4.TabIndex = 1;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.ogrno.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.ogrno.Location = new System.Drawing.Point(168, 180);
+            this.ogrno.Multiline = true;
+            this.ogrno.Name = "ogrno";
+            this.ogrno.Size = new System.Drawing.Size(190, 20);
+            this.ogrno.TabIndex = 1;
+            this.ogrno.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.ogrno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label4
             // 
@@ -295,8 +295,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox ogrsif;
+        private System.Windows.Forms.TextBox ogrno;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button7;

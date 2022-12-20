@@ -13,16 +13,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Proje\cSharpProje.xlsx ;Extended Properties=Excel 12.0 Xml; HDR=YES;");
-
-        void Veriler()
-        {
-            OleDbDataAdapter da = new OleDbDataAdapter("Select * Form [ogrensif$]", baglanti);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            
-            
-        }
+        
         private void button1_Click(object sender, EventArgs e)
         {
             //akademisyen login butonu
@@ -88,7 +79,7 @@ namespace WindowsFormsApp2
         {
             //öğrenci şifre 
            
-                textBox3.PasswordChar = '*';
+                ogrsif.PasswordChar = '*';
          
 
         }
@@ -124,16 +115,40 @@ namespace WindowsFormsApp2
             this.Hide();
             
         }
-
+        
+        OleDbConnection con;
+        OleDbCommand cmd;
+        OleDbDataReader dr;
         private void button3_Click_1(object sender, EventArgs e)
         {
-            
-            // öğrenci giriş
+            string ad = ogrno.Text;
+            string sifre = ogrsif.Text;
+            con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
+            cmd = new OleDbCommand();
+            con.Open();
+            cmd.Connection = con;
+            cmd.CommandText = "SELECT * FROM Login where ogrencino='" + ogrno.Text + "' AND sifre='" + ogrsif.Text + "'";
+            dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                MessageBox.Show("Giriş Başarılı");
+                ogrenciGirisi f2 = new ogrenciGirisi();
+                f2.Show();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı ya da şifre yanlış");
+            }
+
+            con.Close();
+
+            /* öğrenci giriş
             ogrenciGirisi ogr = new ogrenciGirisi();
             ogr.Show();
-            this.Hide();
+            this.Hide();*/
         }
-
+        
+        
         private void button7_Click_1(object sender, EventArgs e)
         {
             this.Close();
@@ -152,12 +167,12 @@ namespace WindowsFormsApp2
             if (checkBox1.Checked)
             {
                 //karakteri göster.
-                textBox3.PasswordChar = '\0';
+                ogrsif.PasswordChar = '\0';
             }
             //değilse karakterlerin yerine * koy.
             else
             {
-                textBox3.PasswordChar = '*';
+                ogrsif.PasswordChar = '*';
             }
         }
 
