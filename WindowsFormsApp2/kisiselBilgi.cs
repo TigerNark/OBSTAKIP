@@ -100,5 +100,10 @@ namespace WindowsFormsApp2
             o.Show();
             this.Close();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
