@@ -120,14 +120,22 @@ namespace WindowsFormsApp2
             this.Hide();
             
         }
+
         
         OleDbConnection con;
         OleDbCommand cmd;
         OleDbDataReader dr;
-        private void button3_Click_1(object sender, EventArgs e)
+
+        
+        public void button3_Click_1(object sender, EventArgs e)
         {
             string ad = ogrno.Text;
             string sifre = ogrsif.Text;
+
+
+
+
+            
             con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
             cmd = new OleDbCommand();
             con.Open();
@@ -137,8 +145,10 @@ namespace WindowsFormsApp2
             if (dr.Read())
             {
                 MessageBox.Show("Giriş Başarılı");
-                ogrenciGirisi f2 = new ogrenciGirisi();
-                f2.Show();
+                kisiselBilgi obj = new kisiselBilgi();
+                obj.GelenOgrNo = ad;
+                obj.ShowDialog();
+                this.Hide();
             }
             else
             {
@@ -147,16 +157,15 @@ namespace WindowsFormsApp2
 
             con.Close();
 
-            /* öğrenci giriş
-            ogrenciGirisi ogr = new ogrenciGirisi();
-            ogr.Show();
-            this.Hide();*/
+            
+            
+            
         }
         
         
         private void button7_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         OleDbConnection con1;

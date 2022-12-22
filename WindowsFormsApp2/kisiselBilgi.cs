@@ -17,14 +17,17 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        public string GelenOgrNo;
+
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
+        
 
         private void kisiselBilgi_Load(object sender, EventArgs e)
         {
-
+            labelOgrno.Text = GelenOgrNo;
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -85,23 +88,25 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // kapat butonu
-
-            this.Close();
-            ogrenciGirisi ogr = new ogrenciGirisi();
-            ogr.Show(); 
             
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             // pakatma butonu
+
             ogrenciGirisi o = new ogrenciGirisi();
+            o.girisYapmısOgrNo = labelOgrno.Text;
             o.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
         {
 
         }

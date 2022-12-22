@@ -2,15 +2,10 @@ C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\bin\x64\Debug\WindowsFormsApp2.exe.
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\bin\x64\Debug\WindowsFormsApp2.exe
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\bin\x64\Debug\WindowsFormsApp2.pdb
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
-C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
-C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.JRO.dll
-C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.MMC20.dll
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.MSDAOSP.dll
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.MSDASC.dll
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.OLEDBError.dll
-C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.OLEPRNLib.dll
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.PMCObjLib.dll
-C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\Interop.TOLERANCELib.dll
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.akademisyen.resources
 C:\Users\ertu\Desktop\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.anaGiris.resources

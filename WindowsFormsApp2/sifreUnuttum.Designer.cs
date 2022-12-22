@@ -33,8 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.nomail = new System.Windows.Forms.TextBox();
+            this.tcno = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -81,21 +81,21 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "TC Kimlik No:";
             // 
-            // textBox1
+            // nomail
             // 
-            this.textBox1.Location = new System.Drawing.Point(465, 146);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 20);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.nomail.Location = new System.Drawing.Point(465, 146);
+            this.nomail.Name = "nomail";
+            this.nomail.Size = new System.Drawing.Size(150, 20);
+            this.nomail.TabIndex = 4;
+            this.nomail.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // tcno
             // 
-            this.textBox2.Location = new System.Drawing.Point(465, 179);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 20);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.tcno.Location = new System.Drawing.Point(465, 179);
+            this.tcno.Name = "tcno";
+            this.tcno.Size = new System.Drawing.Size(150, 20);
+            this.tcno.TabIndex = 5;
+            this.tcno.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // button7
             // 
@@ -126,8 +126,8 @@
             this.ClientSize = new System.Drawing.Size(965, 462);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tcno);
+            this.Controls.Add(this.nomail);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -149,8 +149,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox nomail;
+        private System.Windows.Forms.TextBox tcno;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.PictureBox pictureBox1;
     }

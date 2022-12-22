@@ -50,8 +50,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.kisiselBilgiOgrNo = new System.Windows.Forms.Label();
+            this.labelOgrno = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -253,13 +253,6 @@
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(353, 319);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(206, 20);
-            this.textBox10.TabIndex = 23;
-            // 
             // kisiselBilgiOgrNo
             // 
             this.kisiselBilgiOgrNo.AutoSize = true;
@@ -270,12 +263,22 @@
             this.kisiselBilgiOgrNo.TabIndex = 22;
             this.kisiselBilgiOgrNo.Text = "Öğrenci No:";
             // 
+            // labelOgrno
+            // 
+            this.labelOgrno.AutoSize = true;
+            this.labelOgrno.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelOgrno.Location = new System.Drawing.Point(353, 320);
+            this.labelOgrno.Name = "labelOgrno";
+            this.labelOgrno.Size = new System.Drawing.Size(84, 18);
+            this.labelOgrno.TabIndex = 23;
+            this.labelOgrno.Text = "Öğrenci No";
+            // 
             // kisiselBilgi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 462);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.labelOgrno);
             this.Controls.Add(this.kisiselBilgiOgrNo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button7);
@@ -332,7 +335,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label kisiselBilgiOgrNo;
+        private System.Windows.Forms.Label labelOgrno;
     }
 }

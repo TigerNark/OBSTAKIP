@@ -54,6 +54,7 @@ namespace WindowsFormsApp2
         {
             //öğrenci bilgileri butonu
             kisiselBilgi info = new kisiselBilgi();
+            info.GelenOgrNo = girisYapmısOgrNo;
             info.Show();
             this.Close();
 
@@ -75,10 +76,10 @@ namespace WindowsFormsApp2
             this.Close();
 
         }
-
+        public string girisYapmısOgrNo;
         private void ogrenciGirisi_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
