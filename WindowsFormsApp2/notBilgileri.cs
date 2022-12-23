@@ -17,12 +17,20 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        public string oNumara;
+
         private void button7_Click(object sender, EventArgs e)
         {
             // not bilgileri çıkış butonu
             ogrenciGirisi not = new ogrenciGirisi();
+            not.girisYapmısOgrNo = oNumara;
             not.Show();
             this.Close();
+        }
+
+        private void notBilgileri_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

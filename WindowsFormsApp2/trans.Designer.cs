@@ -48,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(369, 161);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
+            this.label1.Size = new System.Drawing.Size(82, 15);
             this.label1.TabIndex = 46;
             this.label1.Text = "transkripsiyon";
             // 
@@ -63,6 +63,7 @@
             this.Name = "trans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.trans_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

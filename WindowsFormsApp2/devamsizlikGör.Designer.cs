@@ -48,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(429, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 13);
+            this.label1.Size = new System.Drawing.Size(177, 15);
             this.label1.TabIndex = 46;
             this.label1.Text = "devamsızlık sorgulama öğrenci";
             // 
@@ -63,6 +63,7 @@
             this.Name = "devamsizlikGör";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.devamsizlikGör_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

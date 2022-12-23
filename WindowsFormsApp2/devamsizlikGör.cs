@@ -21,8 +21,15 @@ namespace WindowsFormsApp2
         {
             // devamsızlık görüntüleme kapatma butonu
             ogrenciGirisi a = new ogrenciGirisi();
+            a.girisYapmısOgrNo = oNumara;
             a.Show();
             this.Close();
+        }
+
+        public string oNumara;
+        private void devamsizlikGör_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

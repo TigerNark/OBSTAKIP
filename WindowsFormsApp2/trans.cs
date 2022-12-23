@@ -21,8 +21,14 @@ namespace WindowsFormsApp2
         {
             // transkript kapatma butonu
             ogrenciGirisi a = new ogrenciGirisi();
+            a.girisYapmısOgrNo = oNumara;
             a.Show();
             this.Close();
+        }
+        public string oNumara;
+        private void trans_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
