@@ -32,7 +32,9 @@ namespace WindowsFormsApp2
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dersEkle));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -49,7 +51,7 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button1.Location = new System.Drawing.Point(855, 412);
+            this.button1.Location = new System.Drawing.Point(837, 39);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 38);
             this.button1.TabIndex = 46;
@@ -57,11 +59,20 @@ namespace WindowsFormsApp2
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(55, 111);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(870, 323);
+            this.dataGridView1.TabIndex = 47;
+            // 
             // dersEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 462);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -70,6 +81,7 @@ namespace WindowsFormsApp2
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.dersEkle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -77,5 +89,6 @@ namespace WindowsFormsApp2
         #endregion
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

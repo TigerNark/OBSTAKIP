@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,24 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        OleDbConnection baglanti = new OleDbConnection(
+            @"Provider=Microsoft.ACE.OLEDB.12.0;
+            Data Source=cSharpProje.xlsx;
+            Extended Properties='Excel 12.0 Xml;HDR=YES'");
+        void Veriler()
+        {
+            OleDbDataAdapter da = new OleDbDataAdapter("SELECT *FROM [dersProgrami$]", baglanti);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+
+        }
+
+
         private void dersEkle_Load(object sender, EventArgs e)
         {
-
+            Veriler();
         }
 
         private void button7_Click(object sender, EventArgs e)
