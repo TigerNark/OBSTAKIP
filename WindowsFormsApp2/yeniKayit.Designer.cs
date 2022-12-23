@@ -35,6 +35,8 @@ namespace WindowsFormsApp2
             this.label9 = new System.Windows.Forms.Label();
             this.kayıttext = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.tctext = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.dogumtext = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.bolumtext = new System.Windows.Forms.TextBox();
@@ -52,8 +54,6 @@ namespace WindowsFormsApp2
             this.button7 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.ogrnotext = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tctext = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,6 +100,23 @@ namespace WindowsFormsApp2
             this.label5.Size = new System.Drawing.Size(92, 19);
             this.label5.TabIndex = 34;
             this.label5.Text = "KAYIT TARİHİ:";
+            // 
+            // tctext
+            // 
+            this.tctext.Location = new System.Drawing.Point(599, 177);
+            this.tctext.Name = "tctext";
+            this.tctext.Size = new System.Drawing.Size(198, 20);
+            this.tctext.TabIndex = 33;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(439, 178);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 19);
+            this.label6.TabIndex = 32;
+            this.label6.Text = "KİMLİK NO:";
             // 
             // dogumtext
             // 
@@ -254,23 +271,6 @@ namespace WindowsFormsApp2
             this.ogrnotext.Size = new System.Drawing.Size(198, 20);
             this.ogrnotext.TabIndex = 47;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(439, 178);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 19);
-            this.label6.TabIndex = 32;
-            this.label6.Text = "KİMLİK NO:";
-            // 
-            // tctext
-            // 
-            this.tctext.Location = new System.Drawing.Point(599, 177);
-            this.tctext.Name = "tctext";
-            this.tctext.Size = new System.Drawing.Size(198, 20);
-            this.tctext.TabIndex = 33;
-            // 
             // yeniKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -318,6 +318,8 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox kayıttext;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox tctext;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox dogumtext;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox bolumtext;
@@ -335,7 +337,5 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.TextBox isimtext;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox ogrnotext;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tctext;
     }
 }

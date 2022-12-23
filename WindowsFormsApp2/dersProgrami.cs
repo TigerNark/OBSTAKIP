@@ -49,13 +49,16 @@ namespace WindowsFormsApp2
         {
             // ders programı kapatma butonu 
             ogrenciGirisi drs = new ogrenciGirisi();
+            drs.girisYapmısOgrNo = oNumara;
             drs.Show();
             this.Close();
         }
 
+        public string oNumara;
+
         private void dersProgrami_Load(object sender, EventArgs e)
         {
-            Veriler();
+            Veriler(); 
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)

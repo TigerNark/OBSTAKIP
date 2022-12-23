@@ -59,7 +59,7 @@ namespace WindowsFormsApp2
 
                 reader.Read();
                 string veritabaniSif = reader["sifre"].ToString();
-                MessageBox.Show("Şifreniz: " + veritabaniSif, "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Girilen Bilgiler doğru, Şifreniz: " + veritabaniSif, "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
