@@ -86,7 +86,7 @@ namespace WindowsFormsApp2
 
             // Veritabanından öğrenci bilgilerini çekmek için OleDbCommand nesnesi oluşturun
             OleDbCommand command = new OleDbCommand();
-            command.CommandText = "SELECT * FROM Ogrenci_kayitlari WHERE ogrno = @ girisYapmısOgrNo";
+            command.CommandText = "SELECT * FROM Ogrenci_kayitlari WHERE ogrno = @girisYapmısOgrNo";
             command.Parameters.AddWithValue("@ogrno", girisYapmısOgrNo);
             command.Connection = connection;
 
