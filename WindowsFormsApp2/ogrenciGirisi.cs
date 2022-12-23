@@ -21,7 +21,6 @@ namespace WindowsFormsApp2
         public string girisYapmısOgrNo = "";
         private void ogrenciGirisi_Load(object sender, EventArgs e)
         {
-            MessageBox.Show(girisYapmısOgrNo);
 
             // Veritabanına bağlanmak için OleDbConnection nesnesi oluşturun
             OleDbConnection connection = new OleDbConnection();
