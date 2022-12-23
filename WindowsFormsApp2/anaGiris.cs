@@ -199,7 +199,7 @@ namespace WindowsFormsApp2
             /*// akademisyen giriş butonu
             akademisyen grs = new akademisyen();
             grs.Show();
-            this.Hide();*/
+            this.Hide();*/ 
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
