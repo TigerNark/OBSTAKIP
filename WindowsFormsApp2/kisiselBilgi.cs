@@ -89,80 +89,31 @@ namespace WindowsFormsApp2
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            //İSİM
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            //SOYİSİM
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            //TELEFON
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            //ADRES
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-            //BÖLÜM
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-            //DOĞUM TARİHİ
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-            //KİMLİK NO
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-            //KAYIT TARİHİ
-        }
-
-        private void textBox9_TextChanged(object sender, EventArgs e)
-        {
-            //MAİL
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
 
         private void button7_Click(object sender, EventArgs e)
         {
             // pakatma butonu
             // bilgilerim sayfasına ogr no gönder
             ogrenciGirisi o = new ogrenciGirisi();
-            o.girisYapmısOgrNo = labelOgrno.Text;
+            o.girisYapmısOgrNo = GelenOgrNo;
             o.Show();
             this.Hide();
             //not bilgilerim sayfasına ogr no gönder
             notBilgileri notee = new notBilgileri();
-            notee.oNumara = labelOgrno.Text;
+            notee.oNumara = GelenOgrNo;
             // ders programı sayfasına ogr no gönder
             dersProgrami dee = new dersProgrami();
-            dee.oNumara = labelOgrno.Text;
+            dee.oNumara = GelenOgrNo;
             // transkrip sayfasına ogr np gönder
             trans trranskr = new trans();
-            trranskr.oNumara = labelOgrno.Text;
+            trranskr.oNumara = GelenOgrNo;
             //devamsızlık gör sayfasına ogt no gönder
             devamsizlikGör devamsizlik = new devamsizlikGör();
-            devamsizlik.oNumara= labelOgrno.Text;
+            devamsizlik.oNumara= GelenOgrNo;
             // takvime ögr no gönder
             takvim tt = new takvim();
-            tt.oNumara = labelOgrno.Text;
+            tt.oNumara = GelenOgrNo;
 
             
         }

@@ -18,68 +18,11 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            //Akadenik takvim butonu
-            takvim t = new takvim();
-            t.Show();
-            this.Close();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            anaGiris ana = new anaGiris();
-            ana.Show();
-            this.Close();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            //Ders Programı Butonu
-            dersProgrami f = new dersProgrami();
-            f.Show();
-            this.Close();
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            //Not bilgileri butonu
-
-            notBilgileri not = new notBilgileri();
-            not.Show();
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //öğrenci bilgileri butonu
-            kisiselBilgi info = new kisiselBilgi();
-            info.GelenOgrNo = girisYapmısOgrNo;
-            info.Show();
-            this.Close();
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //Transkripsiyon butonu
-            trans a = new trans();
-            a.Show();
-            this.Close();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            //Devamsızlık Sorgulama Butonu
-            devamsizlikGör dvm = new devamsizlikGör();
-            dvm.Show();
-            this.Close();
-
-        }
         public string girisYapmısOgrNo = "";
         private void ogrenciGirisi_Load(object sender, EventArgs e)
         {
+            MessageBox.Show(girisYapmısOgrNo);
+
             // Veritabanına bağlanmak için OleDbConnection nesnesi oluşturun
             OleDbConnection connection = new OleDbConnection();
             connection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb;Persist Security Info=False;";
@@ -94,7 +37,7 @@ namespace WindowsFormsApp2
             connection.Open();
             OleDbDataReader reader = command.ExecuteReader();
             kisiselBilgi aktarr = new kisiselBilgi();
-            
+
 
             // OleDbDataReader nesnesinden öğrenci bilgilerini okuyun ve forma yazdırın
             while (reader.Read())
@@ -127,6 +70,72 @@ namespace WindowsFormsApp2
             reader.Close();
             connection.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            //Akadenik takvim butonu
+            takvim t = new takvim();
+            t.oNumara = girisYapmısOgrNo;
+            t.Show();
+            this.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            anaGiris ana = new anaGiris();
+            ana.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Ders Programı Butonu
+            dersProgrami f = new dersProgrami();
+            f.oNumara = girisYapmısOgrNo;
+            f.Show();
+            this.Close();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Not bilgileri butonu
+
+            notBilgileri not = new notBilgileri();
+            not.oNumara = girisYapmısOgrNo;
+            not.Show();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //öğrenci bilgileri butonu
+            kisiselBilgi info = new kisiselBilgi();
+            info.GelenOgrNo = girisYapmısOgrNo;
+            info.Show();
+            this.Close();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //Transkripsiyon butonu
+            trans a = new trans();
+            a.oNumara = girisYapmısOgrNo;
+            a.Show();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //Devamsızlık Sorgulama Butonu
+            devamsizlikGör dvm = new devamsizlikGör();
+            dvm.oNumara = girisYapmısOgrNo;
+            dvm.Show();
+            this.Close();
+
+        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {

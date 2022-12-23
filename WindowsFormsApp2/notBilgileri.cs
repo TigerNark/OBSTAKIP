@@ -31,6 +31,7 @@ namespace WindowsFormsApp2
         private void notBilgileri_Load(object sender, EventArgs e)
         {
 
+            MessageBox.Show(oNumara);
         }
     }
 }

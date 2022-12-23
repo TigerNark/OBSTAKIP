@@ -132,10 +132,6 @@ namespace WindowsFormsApp2
             string ad = ogrno.Text;
             string sifre = ogrsif.Text;
 
-
-
-
-            
             con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
             cmd = new OleDbCommand();
             con.Open();
