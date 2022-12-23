@@ -35,31 +35,36 @@ namespace WindowsFormsApp2
             sorgu.Connection = baglanti;//hangi bağlantıda kullanılacak
 
             string isim = isimtext.Text;
-            string soyisim = soyisimtext.Text;
-            string dogum_tarihi = dogumtext.Text;  
+            string Soyisim = soyisimtext.Text;
+            string dogum_tarihi = dogumtext.Text;
             string mail = mailtext.Text;
-            string tcno = tctext.Text; 
+            string kimlik_no = tctext.Text;
             string bolum = bolumtext.Text;
-            string kayıttarihi = kayıttext.Text;
-            string cepno = notext.Text;
+            string kayit_tarihi = kayıttext.Text;
+            string cep_no = notext.Text;
             string adres = adrestext.Text;
-            string ogrencino = ogrnotext.Text;
+            string ogrno = ogrnotext.Text;
 
             sorgu.CommandType = CommandType.Text;
-            sorgu.CommandText = "insert into Ogrenci_kayitlari (isim,soyisim,dogum_tarihi,mail,tcno,bolum,kayıttarihi,cepno,adres,ogrencino) values (@İsim,@Soyisim,@dogum_tarihi,@mail,@kimlik_no,@bolum,@kayit_tarihi,@cep_no,@adres,@ogrno)";
+            sorgu.CommandText = "insert into Ogrenci_kayitlari (isim,Soyisim,dogum_tarihi,mail,kimlik_no,bolum,kayit_tarihi,cep_no,adres,ogrno) values (@İsim,@Soyisim,@dogum_tarihi,@mail,@kimlik_no,@bolum,@kayit_tarihi,@cep_no,@adres,@ogrno)";
+
+
 
             sorgu.Parameters.AddWithValue("@isim", isim);
-            sorgu.Parameters.AddWithValue("@Soyisim", soyisim);
+            sorgu.Parameters.AddWithValue("@Soyisim", Soyisim);
             sorgu.Parameters.AddWithValue("@dogum_tarihi", dogum_tarihi);
             sorgu.Parameters.AddWithValue("@mail", mail);
-            sorgu.Parameters.AddWithValue("@kimlik_no", tcno);
+            sorgu.Parameters.AddWithValue("@kimlik_no", kimlik_no);
             sorgu.Parameters.AddWithValue("@bolum", bolum);
-            sorgu.Parameters.AddWithValue("@kayit_tarihi", kayıttarihi);
-            sorgu.Parameters.AddWithValue("@cep_no", cepno);
+            sorgu.Parameters.AddWithValue("@kayit_tarihi", kayit_tarihi);
+            sorgu.Parameters.AddWithValue("@cep_no", cep_no);
             sorgu.Parameters.AddWithValue("@adres", adres);
-            sorgu.Parameters.AddWithValue("@ogrno", ogrencino);
+            sorgu.Parameters.AddWithValue("@ogrno", ogrno);
 
-            sorgu.ExecuteNonQuery();//update,insert,delete sorgularını çalıştırır ve geriye kaç satırlık işlem yapıldığı ile ilgili bilgi int türünde geri döner.
+            int rowsAffected = sorgu.ExecuteNonQuery();
+            Console.WriteLine($"{rowsAffected} rows were updated.");
+
+            //sorgu.ExecuteNonQuery();//update,insert,delete sorgularını çalıştırır ve geriye kaç satırlık işlem yapıldığı ile ilgili bilgi int türünde geri döner.
 
             MessageBox.Show("Kaydınız gerçekleştirilmiştir.", "Kayır İşlemi");
             baglanti.Close();// bağlantı kapatıldı.
