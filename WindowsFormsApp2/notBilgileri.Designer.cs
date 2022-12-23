@@ -40,21 +40,21 @@
             this.vize = new System.Windows.Forms.Label();
             this.final = new System.Windows.Forms.Label();
             this.genel = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.dersUcVize = new System.Windows.Forms.Label();
+            this.dersBesVize = new System.Windows.Forms.Label();
+            this.dersDortVize = new System.Windows.Forms.Label();
+            this.dersIkiVize = new System.Windows.Forms.Label();
             this.dersBirVize = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.dersUcFinal = new System.Windows.Forms.Label();
+            this.dersBesFinal = new System.Windows.Forms.Label();
+            this.dersDortFinal = new System.Windows.Forms.Label();
+            this.dersIkiFinal = new System.Windows.Forms.Label();
             this.dersBirFinal = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.DersUcGenel = new System.Windows.Forms.Label();
+            this.DersBesGenel = new System.Windows.Forms.Label();
+            this.DersDortGenel = new System.Windows.Forms.Label();
+            this.DersIkiGenel = new System.Windows.Forms.Label();
+            this.DersBirGenel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -100,12 +100,12 @@
             // 
             // ders1
             // 
-            this.ders1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ders1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ders1.AutoSize = true;
             this.ders1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ders1.Location = new System.Drawing.Point(145, 152);
+            this.ders1.Location = new System.Drawing.Point(119, 152);
             this.ders1.Name = "ders1";
             this.ders1.Size = new System.Drawing.Size(55, 22);
             this.ders1.TabIndex = 11;
@@ -113,12 +113,12 @@
             // 
             // ders2
             // 
-            this.ders2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ders2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ders2.AutoSize = true;
             this.ders2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ders2.Location = new System.Drawing.Point(145, 204);
+            this.ders2.Location = new System.Drawing.Point(119, 204);
             this.ders2.Name = "ders2";
             this.ders2.Size = new System.Drawing.Size(55, 22);
             this.ders2.TabIndex = 12;
@@ -126,12 +126,12 @@
             // 
             // ders4
             // 
-            this.ders4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ders4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ders4.AutoSize = true;
             this.ders4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ders4.Location = new System.Drawing.Point(145, 314);
+            this.ders4.Location = new System.Drawing.Point(119, 314);
             this.ders4.Name = "ders4";
             this.ders4.Size = new System.Drawing.Size(55, 22);
             this.ders4.TabIndex = 14;
@@ -139,12 +139,12 @@
             // 
             // ders5
             // 
-            this.ders5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ders5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ders5.AutoSize = true;
             this.ders5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ders5.Location = new System.Drawing.Point(145, 367);
+            this.ders5.Location = new System.Drawing.Point(119, 367);
             this.ders5.Name = "ders5";
             this.ders5.Size = new System.Drawing.Size(55, 22);
             this.ders5.TabIndex = 15;
@@ -152,12 +152,12 @@
             // 
             // ders3
             // 
-            this.ders3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ders3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ders3.AutoSize = true;
             this.ders3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ders3.Location = new System.Drawing.Point(145, 261);
+            this.ders3.Location = new System.Drawing.Point(119, 261);
             this.ders3.Name = "ders3";
             this.ders3.Size = new System.Drawing.Size(55, 22);
             this.ders3.TabIndex = 16;
@@ -165,8 +165,8 @@
             // 
             // vize
             // 
-            this.vize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.vize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.vize.AutoSize = true;
             this.vize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -178,8 +178,8 @@
             // 
             // final
             // 
-            this.final.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.final.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.final.AutoSize = true;
             this.final.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -191,8 +191,8 @@
             // 
             // genel
             // 
-            this.genel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.genel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.genel.AutoSize = true;
             this.genel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -202,62 +202,63 @@
             this.genel.TabIndex = 20;
             this.genel.Text = "GENEL ";
             // 
-            // label10
+            // dersUcVize
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersUcVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(279, 261);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(20, 22);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "0";
+            this.dersUcVize.AutoSize = true;
+            this.dersUcVize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersUcVize.Location = new System.Drawing.Point(279, 261);
+            this.dersUcVize.Name = "dersUcVize";
+            this.dersUcVize.Size = new System.Drawing.Size(20, 22);
+            this.dersUcVize.TabIndex = 25;
+            this.dersUcVize.Text = "0";
             // 
-            // label11
+            // dersBesVize
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersBesVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(279, 367);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(20, 22);
-            this.label11.TabIndex = 24;
-            this.label11.Text = "0";
+            this.dersBesVize.AutoSize = true;
+            this.dersBesVize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersBesVize.Location = new System.Drawing.Point(279, 367);
+            this.dersBesVize.Name = "dersBesVize";
+            this.dersBesVize.Size = new System.Drawing.Size(20, 22);
+            this.dersBesVize.TabIndex = 24;
+            this.dersBesVize.Text = "0";
             // 
-            // label12
+            // dersDortVize
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersDortVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(279, 314);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(20, 22);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "0";
+            this.dersDortVize.AutoSize = true;
+            this.dersDortVize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersDortVize.Location = new System.Drawing.Point(279, 314);
+            this.dersDortVize.Name = "dersDortVize";
+            this.dersDortVize.Size = new System.Drawing.Size(20, 22);
+            this.dersDortVize.TabIndex = 23;
+            this.dersDortVize.Text = "0";
+            this.dersDortVize.Click += new System.EventHandler(this.label12_Click);
             // 
-            // label13
+            // dersIkiVize
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersIkiVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(279, 204);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(20, 22);
-            this.label13.TabIndex = 22;
-            this.label13.Text = "0";
+            this.dersIkiVize.AutoSize = true;
+            this.dersIkiVize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersIkiVize.Location = new System.Drawing.Point(279, 204);
+            this.dersIkiVize.Name = "dersIkiVize";
+            this.dersIkiVize.Size = new System.Drawing.Size(20, 22);
+            this.dersIkiVize.TabIndex = 22;
+            this.dersIkiVize.Text = "0";
             // 
             // dersBirVize
             // 
-            this.dersBirVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersBirVize.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dersBirVize.AutoSize = true;
             this.dersBirVize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -267,62 +268,62 @@
             this.dersBirVize.TabIndex = 21;
             this.dersBirVize.Text = "0";
             // 
-            // label15
+            // dersUcFinal
             // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersUcFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(480, 261);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(20, 22);
-            this.label15.TabIndex = 30;
-            this.label15.Text = "0";
+            this.dersUcFinal.AutoSize = true;
+            this.dersUcFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersUcFinal.Location = new System.Drawing.Point(480, 261);
+            this.dersUcFinal.Name = "dersUcFinal";
+            this.dersUcFinal.Size = new System.Drawing.Size(20, 22);
+            this.dersUcFinal.TabIndex = 30;
+            this.dersUcFinal.Text = "0";
             // 
-            // label16
+            // dersBesFinal
             // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersBesFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(480, 367);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(20, 22);
-            this.label16.TabIndex = 29;
-            this.label16.Text = "0";
+            this.dersBesFinal.AutoSize = true;
+            this.dersBesFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersBesFinal.Location = new System.Drawing.Point(480, 367);
+            this.dersBesFinal.Name = "dersBesFinal";
+            this.dersBesFinal.Size = new System.Drawing.Size(20, 22);
+            this.dersBesFinal.TabIndex = 29;
+            this.dersBesFinal.Text = "0";
             // 
-            // label17
+            // dersDortFinal
             // 
-            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersDortFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(480, 314);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(20, 22);
-            this.label17.TabIndex = 28;
-            this.label17.Text = "0";
+            this.dersDortFinal.AutoSize = true;
+            this.dersDortFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersDortFinal.Location = new System.Drawing.Point(480, 314);
+            this.dersDortFinal.Name = "dersDortFinal";
+            this.dersDortFinal.Size = new System.Drawing.Size(20, 22);
+            this.dersDortFinal.TabIndex = 28;
+            this.dersDortFinal.Text = "0";
             // 
-            // label18
+            // dersIkiFinal
             // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersIkiFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(480, 204);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(20, 22);
-            this.label18.TabIndex = 27;
-            this.label18.Text = "0";
+            this.dersIkiFinal.AutoSize = true;
+            this.dersIkiFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dersIkiFinal.Location = new System.Drawing.Point(480, 204);
+            this.dersIkiFinal.Name = "dersIkiFinal";
+            this.dersIkiFinal.Size = new System.Drawing.Size(20, 22);
+            this.dersIkiFinal.TabIndex = 27;
+            this.dersIkiFinal.Text = "0";
             // 
             // dersBirFinal
             // 
-            this.dersBirFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.dersBirFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dersBirFinal.AutoSize = true;
             this.dersBirFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -332,76 +333,77 @@
             this.dersBirFinal.TabIndex = 26;
             this.dersBirFinal.Text = "0";
             // 
-            // label20
+            // DersUcGenel
             // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DersUcGenel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(696, 261);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(20, 22);
-            this.label20.TabIndex = 35;
-            this.label20.Text = "0";
+            this.DersUcGenel.AutoSize = true;
+            this.DersUcGenel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DersUcGenel.Location = new System.Drawing.Point(696, 261);
+            this.DersUcGenel.Name = "DersUcGenel";
+            this.DersUcGenel.Size = new System.Drawing.Size(20, 22);
+            this.DersUcGenel.TabIndex = 35;
+            this.DersUcGenel.Text = "0";
+            this.DersUcGenel.Click += new System.EventHandler(this.label20_Click);
             // 
-            // label21
+            // DersBesGenel
             // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DersBesGenel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(696, 367);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(20, 22);
-            this.label21.TabIndex = 34;
-            this.label21.Text = "0";
-            this.label21.Click += new System.EventHandler(this.label21_Click);
+            this.DersBesGenel.AutoSize = true;
+            this.DersBesGenel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DersBesGenel.Location = new System.Drawing.Point(696, 367);
+            this.DersBesGenel.Name = "DersBesGenel";
+            this.DersBesGenel.Size = new System.Drawing.Size(20, 22);
+            this.DersBesGenel.TabIndex = 34;
+            this.DersBesGenel.Text = "0";
+            this.DersBesGenel.Click += new System.EventHandler(this.label21_Click);
             // 
-            // label22
+            // DersDortGenel
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DersDortGenel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(696, 314);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(20, 22);
-            this.label22.TabIndex = 33;
-            this.label22.Text = "0";
+            this.DersDortGenel.AutoSize = true;
+            this.DersDortGenel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DersDortGenel.Location = new System.Drawing.Point(696, 314);
+            this.DersDortGenel.Name = "DersDortGenel";
+            this.DersDortGenel.Size = new System.Drawing.Size(20, 22);
+            this.DersDortGenel.TabIndex = 33;
+            this.DersDortGenel.Text = "0";
             // 
-            // label23
+            // DersIkiGenel
             // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DersIkiGenel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(696, 204);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(20, 22);
-            this.label23.TabIndex = 32;
-            this.label23.Text = "0";
+            this.DersIkiGenel.AutoSize = true;
+            this.DersIkiGenel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DersIkiGenel.Location = new System.Drawing.Point(696, 204);
+            this.DersIkiGenel.Name = "DersIkiGenel";
+            this.DersIkiGenel.Size = new System.Drawing.Size(20, 22);
+            this.DersIkiGenel.TabIndex = 32;
+            this.DersIkiGenel.Text = "0";
             // 
-            // label24
+            // DersBirGenel
             // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DersBirGenel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(696, 152);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(20, 22);
-            this.label24.TabIndex = 31;
-            this.label24.Text = "0";
+            this.DersBirGenel.AutoSize = true;
+            this.DersBirGenel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DersBirGenel.Location = new System.Drawing.Point(696, 152);
+            this.DersBirGenel.Name = "DersBirGenel";
+            this.DersBirGenel.Size = new System.Drawing.Size(20, 22);
+            this.DersBirGenel.TabIndex = 31;
+            this.DersBirGenel.Text = "0";
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(104, 175);
@@ -414,8 +416,8 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(104, 230);
@@ -427,8 +429,8 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(104, 285);
@@ -440,8 +442,8 @@
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(104, 338);
@@ -453,8 +455,8 @@
             // 
             // label6
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(104, 391);
@@ -466,8 +468,8 @@
             // 
             // label7
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(104, 122);
@@ -489,20 +491,20 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.DersUcGenel);
+            this.Controls.Add(this.DersBesGenel);
+            this.Controls.Add(this.DersDortGenel);
+            this.Controls.Add(this.DersIkiGenel);
+            this.Controls.Add(this.DersBirGenel);
+            this.Controls.Add(this.dersUcFinal);
+            this.Controls.Add(this.dersBesFinal);
+            this.Controls.Add(this.dersDortFinal);
+            this.Controls.Add(this.dersIkiFinal);
             this.Controls.Add(this.dersBirFinal);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.dersUcVize);
+            this.Controls.Add(this.dersBesVize);
+            this.Controls.Add(this.dersDortVize);
+            this.Controls.Add(this.dersIkiVize);
             this.Controls.Add(this.dersBirVize);
             this.Controls.Add(this.genel);
             this.Controls.Add(this.final);
@@ -539,21 +541,21 @@
         private System.Windows.Forms.Label vize;
         private System.Windows.Forms.Label final;
         private System.Windows.Forms.Label genel;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label dersUcVize;
+        private System.Windows.Forms.Label dersBesVize;
+        private System.Windows.Forms.Label dersDortVize;
+        private System.Windows.Forms.Label dersIkiVize;
         private System.Windows.Forms.Label dersBirVize;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label dersUcFinal;
+        private System.Windows.Forms.Label dersBesFinal;
+        private System.Windows.Forms.Label dersDortFinal;
+        private System.Windows.Forms.Label dersIkiFinal;
         private System.Windows.Forms.Label dersBirFinal;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label DersUcGenel;
+        private System.Windows.Forms.Label DersBesGenel;
+        private System.Windows.Forms.Label DersDortGenel;
+        private System.Windows.Forms.Label DersIkiGenel;
+        private System.Windows.Forms.Label DersBirGenel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

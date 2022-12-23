@@ -31,6 +31,11 @@ namespace WindowsFormsApp2
 
         private void notBilgileri_Load(object sender, EventArgs e)
         {
+            ders1.Text = "MATEMATİK";
+            ders2.Text = "FİZİK";
+            ders3.Text = "KİMYA";
+            ders4.Text = "LAB";
+            ders5.Text = "PROGRAMLAMA";
 
             // Veritabanına bağlanmak için bir OleDbConnection nesnesi oluşturun
             OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
@@ -49,19 +54,23 @@ namespace WindowsFormsApp2
             // Öğrenci numarasına göre sınav notlarını ekrana yazdırın
             if (reader.HasRows)
             {
-                string notlar = "";
+
                 while (reader.Read())
                 {
-                    string dersAdi = reader["mat1"].ToString();
-                    //string not = reader["not"].ToString();
-                    notlar += dersAdi + ": " + "" + "\n";
+                    dersBirVize.Text = reader["mat1"].ToString();
+                    dersBirFinal.Text = reader["mat2"].ToString();
+                    dersIkiVize.Text = reader["fizik1"].ToString();
+                    dersIkiFinal.Text = reader["fizik2"].ToString();
+                    dersUcVize.Text = reader["kimya1"].ToString();
+                    dersUcFinal.Text = reader["kimya2"].ToString();
+                    dersDortVize.Text = reader["lab1"].ToString();
+                    dersDortFinal.Text = reader["lab2"].ToString();
+                    dersBesVize.Text = reader["prog1"].ToString();
+                    dersBesFinal.Text = reader["prog2"].ToString();
+
                 }
-                MessageBox.Show(notlar, "Sınav Notları", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                // Öğrenci numarasına göre kayıtlı sınav notları bulunamadı
-                MessageBox.Show("Girilen öğrenci numarasına göre kayıtlı sınav notları bulunamadı.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
             }
 
             reader.Close();
@@ -84,6 +93,16 @@ namespace WindowsFormsApp2
         }
 
         private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
         {
 
         }
