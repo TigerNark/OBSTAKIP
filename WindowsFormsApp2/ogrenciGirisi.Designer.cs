@@ -82,7 +82,7 @@ namespace WindowsFormsApp2
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(140, 62);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Transkripsiyon";
+            this.button4.Text = "Öğrenci Belgesi";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -104,7 +104,7 @@ namespace WindowsFormsApp2
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(140, 62);
             this.button6.TabIndex = 5;
-            this.button6.Text = "Akademik Takvim";
+            this.button6.Text = "Transkripsiyon";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -126,7 +126,7 @@ namespace WindowsFormsApp2
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(342, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 44);
+            this.label1.Size = new System.Drawing.Size(223, 39);
             this.label1.TabIndex = 7;
             this.label1.Text = "Öğrenci Girişi";
             this.label1.Click += new System.EventHandler(this.label1_Click);

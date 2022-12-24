@@ -119,7 +119,7 @@ namespace WindowsFormsApp2
         private void button4_Click(object sender, EventArgs e)
         {
             //Transkripsiyon butonu
-            trans a = new trans();
+            ogrbelge a = new ogrbelge();
             a.oNumara = girisYapmısOgrNo;
             a.Show();
             this.Close();

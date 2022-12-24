@@ -13,9 +13,9 @@ using iTextSharp.text.pdf;
 
 namespace WindowsFormsApp2
 {
-    public partial class trans : Form
+    public partial class ogrbelge : Form
     {
-        public trans()
+        public ogrbelge()
         {
             InitializeComponent();
         }

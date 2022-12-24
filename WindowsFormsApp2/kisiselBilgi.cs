@@ -106,7 +106,7 @@ namespace WindowsFormsApp2
             dersProgrami dee = new dersProgrami();
             dee.oNumara = GelenOgrNo;
             // transkrip sayfasına ogr np gönder
-            trans trranskr = new trans();
+            ogrbelge trranskr = new ogrbelge();
             trranskr.oNumara = GelenOgrNo;
             //devamsızlık gör sayfasına ogt no gönder
             devamsizlikGör devamsizlik = new devamsizlikGör();
