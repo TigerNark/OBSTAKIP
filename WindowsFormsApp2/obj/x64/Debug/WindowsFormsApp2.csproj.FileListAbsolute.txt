@@ -179,3 +179,7 @@ C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\x64\Deb
 C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.exe
 C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.pdb
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\BouncyCastle.Crypto.dll
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\itextsharp.dll
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\itextsharp.xml
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.CopyComplete
