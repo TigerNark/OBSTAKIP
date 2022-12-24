@@ -48,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(422, 206);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 15);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 46;
             this.label1.Text = "takvim";
             // 
@@ -62,7 +62,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "takvim";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Akademik Takvim";
             this.Load += new System.EventHandler(this.takvim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

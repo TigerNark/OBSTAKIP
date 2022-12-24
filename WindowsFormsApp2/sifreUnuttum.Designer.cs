@@ -67,7 +67,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(73, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 18);
+            this.label1.Size = new System.Drawing.Size(278, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "*Lüfen yukarıdaki bilgileri eksiksiz doldurun";
             // 
@@ -77,7 +77,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(19, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 18);
+            this.label2.Size = new System.Drawing.Size(126, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Öğrenci Numarası:";
             // 
@@ -87,7 +87,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(51, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 18);
+            this.label3.Size = new System.Drawing.Size(92, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "TC Kimlik No:";
             // 
@@ -177,7 +177,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(51, 60);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 18);
+            this.label7.Size = new System.Drawing.Size(92, 17);
             this.label7.TabIndex = 3;
             this.label7.Text = "TC Kimlik No:";
             // 
@@ -187,7 +187,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(19, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 18);
+            this.label8.Size = new System.Drawing.Size(125, 17);
             this.label8.TabIndex = 2;
             this.label8.Text = "Akademisyen Mail:";
             // 
@@ -197,7 +197,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.Location = new System.Drawing.Point(73, 132);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(287, 18);
+            this.label9.Size = new System.Drawing.Size(278, 17);
             this.label9.TabIndex = 1;
             this.label9.Text = "*Lüfen yukarıdaki bilgileri eksiksiz doldurun";
             // 
@@ -224,7 +224,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "sifreUnuttum";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "sifreUnuttum";
+            this.Text = "Şifre Unuttum";
             this.Load += new System.EventHandler(this.sifreUnuttum_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

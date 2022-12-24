@@ -114,7 +114,7 @@ namespace WindowsFormsApp2
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ogrenciSorgulama";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "\"";
+            this.Text = "Öğrenci Sorgulama";
             this.Load += new System.EventHandler(this.ogr_gor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

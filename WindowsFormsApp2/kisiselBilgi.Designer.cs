@@ -61,7 +61,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(247, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 20);
+            this.label1.Size = new System.Drawing.Size(44, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "İSİM: ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -72,7 +72,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(220, 171);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 20);
+            this.label2.Size = new System.Drawing.Size(70, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "SOYİSİM: ";
             // 
@@ -82,7 +82,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(230, 243);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 20);
+            this.label3.Size = new System.Drawing.Size(57, 19);
             this.label3.TabIndex = 6;
             this.label3.Text = "ADRES: ";
             // 
@@ -92,7 +92,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(216, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 20);
+            this.label4.Size = new System.Drawing.Size(72, 19);
             this.label4.TabIndex = 4;
             this.label4.Text = "TELEFON: ";
             // 
@@ -102,7 +102,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.Location = new System.Drawing.Point(246, 284);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 20);
+            this.label9.Size = new System.Drawing.Size(45, 19);
             this.label9.TabIndex = 16;
             this.label9.Text = "MAİL:";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -113,7 +113,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.Location = new System.Drawing.Point(348, 65);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(241, 29);
+            this.label10.Size = new System.Drawing.Size(226, 26);
             this.label10.TabIndex = 18;
             this.label10.Text = "ÖĞRENCİ BİLGİLERİ";
             // 
@@ -145,7 +145,7 @@
             this.kisiselBilgiOgrNo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kisiselBilgiOgrNo.Location = new System.Drawing.Point(550, 285);
             this.kisiselBilgiOgrNo.Name = "kisiselBilgiOgrNo";
-            this.kisiselBilgiOgrNo.Size = new System.Drawing.Size(100, 20);
+            this.kisiselBilgiOgrNo.Size = new System.Drawing.Size(96, 19);
             this.kisiselBilgiOgrNo.TabIndex = 22;
             this.kisiselBilgiOgrNo.Text = "ÖĞRENCİ NO:";
             // 
@@ -155,7 +155,7 @@
             this.labelOgrno.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelOgrno.Location = new System.Drawing.Point(656, 286);
             this.labelOgrno.Name = "labelOgrno";
-            this.labelOgrno.Size = new System.Drawing.Size(105, 18);
+            this.labelOgrno.Size = new System.Drawing.Size(96, 17);
             this.labelOgrno.TabIndex = 23;
             this.labelOgrno.Text = "ÖĞRENCİ NO";
             // 
@@ -165,7 +165,7 @@
             this.ad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ad.Location = new System.Drawing.Point(298, 135);
             this.ad.Name = "ad";
-            this.ad.Size = new System.Drawing.Size(37, 18);
+            this.ad.Size = new System.Drawing.Size(34, 17);
             this.ad.TabIndex = 24;
             this.ad.Text = "İSİM";
             // 
@@ -175,7 +175,7 @@
             this.adres.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.adres.Location = new System.Drawing.Point(298, 245);
             this.adres.Name = "adres";
-            this.adres.Size = new System.Drawing.Size(59, 18);
+            this.adres.Size = new System.Drawing.Size(55, 17);
             this.adres.TabIndex = 25;
             this.adres.Text = "ADRES";
             // 
@@ -185,7 +185,7 @@
             this.tel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tel.Location = new System.Drawing.Point(298, 207);
             this.tel.Name = "tel";
-            this.tel.Size = new System.Drawing.Size(77, 18);
+            this.tel.Size = new System.Drawing.Size(72, 17);
             this.tel.TabIndex = 26;
             this.tel.Text = "TELEFON";
             // 
@@ -195,7 +195,7 @@
             this.soyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.soyad.Location = new System.Drawing.Point(298, 172);
             this.soyad.Name = "soyad";
-            this.soyad.Size = new System.Drawing.Size(68, 18);
+            this.soyad.Size = new System.Drawing.Size(63, 17);
             this.soyad.TabIndex = 27;
             this.soyad.Text = "SOYİSİM";
             // 
@@ -205,7 +205,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(584, 136);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 20);
+            this.label8.Size = new System.Drawing.Size(65, 19);
             this.label8.TabIndex = 8;
             this.label8.Text = "BÖLÜM: ";
             // 
@@ -215,7 +215,7 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(530, 173);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(120, 20);
+            this.label7.Size = new System.Drawing.Size(115, 19);
             this.label7.TabIndex = 10;
             this.label7.Text = "DOĞUM TARİHİ :";
             // 
@@ -225,7 +225,7 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(566, 208);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 20);
+            this.label6.Size = new System.Drawing.Size(81, 19);
             this.label6.TabIndex = 12;
             this.label6.Text = "KİMLİK NO:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -236,7 +236,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(551, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 20);
+            this.label5.Size = new System.Drawing.Size(92, 19);
             this.label5.TabIndex = 14;
             this.label5.Text = "KAYIT TARİHİ:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -247,7 +247,7 @@
             this.dTarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dTarih.Location = new System.Drawing.Point(656, 175);
             this.dTarih.Name = "dTarih";
-            this.dTarih.Size = new System.Drawing.Size(117, 18);
+            this.dTarih.Size = new System.Drawing.Size(109, 17);
             this.dTarih.TabIndex = 31;
             this.dTarih.Text = "DOĞUM TARİHİ";
             // 
@@ -257,7 +257,7 @@
             this.tc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tc.Location = new System.Drawing.Point(656, 210);
             this.tc.Name = "tc";
-            this.tc.Size = new System.Drawing.Size(82, 18);
+            this.tc.Size = new System.Drawing.Size(76, 17);
             this.tc.TabIndex = 30;
             this.tc.Text = "KİMLİK NO";
             // 
@@ -267,7 +267,7 @@
             this.kTarihi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kTarihi.Location = new System.Drawing.Point(656, 248);
             this.kTarihi.Name = "kTarihi";
-            this.kTarihi.Size = new System.Drawing.Size(98, 18);
+            this.kTarihi.Size = new System.Drawing.Size(95, 17);
             this.kTarihi.TabIndex = 29;
             this.kTarihi.Text = "KAYIT TARİHİ";
             // 
@@ -277,7 +277,7 @@
             this.bolum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bolum.Location = new System.Drawing.Point(656, 138);
             this.bolum.Name = "bolum";
-            this.bolum.Size = new System.Drawing.Size(62, 18);
+            this.bolum.Size = new System.Drawing.Size(57, 17);
             this.bolum.TabIndex = 28;
             this.bolum.Text = "BÖLÜM";
             // 
@@ -287,7 +287,7 @@
             this.mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mail.Location = new System.Drawing.Point(298, 286);
             this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(41, 18);
+            this.mail.Size = new System.Drawing.Size(39, 17);
             this.mail.TabIndex = 32;
             this.mail.Text = "MAİL";
             this.mail.Click += new System.EventHandler(this.label18_Click);
@@ -323,7 +323,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "kisiselBilgi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Bilgilerim";
             this.Load += new System.EventHandler(this.kisiselBilgi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
