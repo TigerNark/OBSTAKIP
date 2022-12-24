@@ -57,5 +57,58 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            OleDbCommand komut = new OleDbCommand("insert into [devamsizlik$] (ogrno,FİZİK,Kimya,BİYOLOJİ,PROGRAMLAMA,LAB) values (@p1,@p2,@p3,@p4,@p5,@p6)", baglanti);
+            komut.Parameters.AddWithValue("@p1", textogrno.Text);
+            komut.Parameters.AddWithValue("@p2", textfizik.Text);
+            komut.Parameters.AddWithValue("@p3", textkimya.Text);
+            komut.Parameters.AddWithValue("@p4", textbiyoloji.Text);
+            komut.Parameters.AddWithValue("@p5", textprogramlama.Text);
+            komut.Parameters.AddWithValue("@p6", textlab.Text);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Öğrenci Devamsızlık Bilgileri Kaydedildi");
+            Veriler();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            OleDbCommand komut = new OleDbCommand("update [devamsizlik$] set FİZİK=@p2,Kimya=@p3,BİYOLOJİ=@p4,PROGRAMLAMA=@p5,LAB=@p6 where ogrno=@p1", baglanti);
+            komut.Parameters.AddWithValue("@p2", textfizik.Text);
+            komut.Parameters.AddWithValue("@p3", textkimya.Text);
+            komut.Parameters.AddWithValue("@p4", textbiyoloji.Text);
+            komut.Parameters.AddWithValue("@p5", textprogramlama.Text);
+            komut.Parameters.AddWithValue("@p6", textlab.Text);
+            komut.Parameters.AddWithValue("@p1", textogrno.Text);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Devamsızlık Bilgileri 1 Güncellendi.","Güncelleme");
+            Veriler();
+
+
+
+
+
+
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilen = dataGridView1.SelectedCells[0].RowIndex;
+             textogrno.Text = dataGridView1.Rows[secilen].Cells[0].Value.ToString();
+             textfizik.Text = dataGridView1.Rows[secilen].Cells[1].Value.ToString();
+             textkimya.Text = dataGridView1.Rows[secilen].Cells[2].Value.ToString();
+             textbiyoloji.Text = dataGridView1.Rows[secilen].Cells[3].Value.ToString();
+             textprogramlama.Text = dataGridView1.Rows[secilen].Cells[4].Value.ToString();
+             textlab.Text = dataGridView1.Rows[secilen].Cells[5].Value.ToString();
+            
+
+        }
     }
 }

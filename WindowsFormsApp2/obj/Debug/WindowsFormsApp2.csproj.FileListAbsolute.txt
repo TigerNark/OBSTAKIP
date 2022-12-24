@@ -92,3 +92,33 @@ C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\Debug\WindowsForms
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\Interop.MSDAOSP.dll
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\Interop.MSDASC.dll
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\Interop.OLEDBError.dll
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.ResolveComReference.cache
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.akademisyen.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.anaGiris.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.dersEkle.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.dersProgrami.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.devamsizlikGör.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.devamszlikEkleme.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.kisiselBilgi.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.notBilgileri.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ogrenciGirisi.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.notGiris.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ogrenciSorgulama.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.sifreUnuttum.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.sil.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.takvim.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.trans.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.yeniKayit.resources
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\oguzh\OneDrive\Masaüstü\BERAT GÖKHAN\p3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
