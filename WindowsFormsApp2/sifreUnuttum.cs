@@ -28,6 +28,7 @@ namespace WindowsFormsApp2
 
             // Öğrenci numarası ve TC kimlik numarası giriş alanlarını temizleyin
 
+
             nomail.Clear();
             tcno.Clear();
         }
@@ -37,7 +38,7 @@ namespace WindowsFormsApp2
 
         }
 
-        
+
         public string veritabaniSif = "";
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,7 +47,7 @@ namespace WindowsFormsApp2
             OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
             string sorgu = "SELECT * FROM Login WHERE ogrencino = @girilenVeri1 AND kimlik = @girilenVeri2";
             OleDbCommand command = new OleDbCommand(sorgu, baglanti);
-            command.Parameters.AddWithValue("@girilenVeri1",nomail.Text);
+            command.Parameters.AddWithValue("@girilenVeri1", nomail.Text);
             command.Parameters.AddWithValue("@girilenVeri2", tcno.Text);
 
 
@@ -84,6 +85,39 @@ namespace WindowsFormsApp2
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // şifremi getir
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM Login WHERE akademikmail = @girilenVeri1 AND akademikkimlik = @girilenVeri2";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@girilenVeri1", akaMail.Text);
+            command.Parameters.AddWithValue("@girilenVeri2", AkaSifre.Text);
+
+
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                // Veri bulundu, formdan girilen veriler ile veritabanındaki tablo eşleşti
+
+                reader.Read();
+                string veritabaniSifre = reader["akademiksifre"].ToString();
+                MessageBox.Show("Girilen Bilgiler doğru, Şifreniz: " + veritabaniSifre, "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                // Veri bulunamadı, formdan girilen veriler ile veritabanındaki tablo eşleşmedi
+                MessageBox.Show("Formdan girilen veriler ile veritabanındaki tablo eşleşmedi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            reader.Close();
+            baglanti.Close();
+
+            //MessageBox.Show(nomail + " " + tcno);
         }
     }
 }
