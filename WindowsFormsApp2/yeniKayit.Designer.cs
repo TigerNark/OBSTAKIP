@@ -54,6 +54,8 @@ namespace WindowsFormsApp2
             this.button7 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.ogrnotext = new System.Windows.Forms.TextBox();
+            this.ogrsif = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@ namespace WindowsFormsApp2
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(326, 62);
+            this.label10.Location = new System.Drawing.Point(323, 44);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(226, 26);
             this.label10.TabIndex = 38;
@@ -69,16 +71,16 @@ namespace WindowsFormsApp2
             // 
             // mailtext
             // 
-            this.mailtext.Location = new System.Drawing.Point(599, 291);
+            this.mailtext.Location = new System.Drawing.Point(214, 286);
             this.mailtext.Name = "mailtext";
-            this.mailtext.Size = new System.Drawing.Size(198, 20);
+            this.mailtext.Size = new System.Drawing.Size(184, 20);
             this.mailtext.TabIndex = 37;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(439, 290);
+            this.label9.Location = new System.Drawing.Point(114, 286);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(45, 19);
             this.label9.TabIndex = 36;
@@ -86,7 +88,7 @@ namespace WindowsFormsApp2
             // 
             // kayıttext
             // 
-            this.kayıttext.Location = new System.Drawing.Point(599, 216);
+            this.kayıttext.Location = new System.Drawing.Point(597, 174);
             this.kayıttext.Name = "kayıttext";
             this.kayıttext.Size = new System.Drawing.Size(198, 20);
             this.kayıttext.TabIndex = 35;
@@ -95,7 +97,7 @@ namespace WindowsFormsApp2
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(439, 215);
+            this.label5.Location = new System.Drawing.Point(437, 173);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 19);
             this.label5.TabIndex = 34;
@@ -103,7 +105,7 @@ namespace WindowsFormsApp2
             // 
             // tctext
             // 
-            this.tctext.Location = new System.Drawing.Point(599, 177);
+            this.tctext.Location = new System.Drawing.Point(597, 135);
             this.tctext.Name = "tctext";
             this.tctext.Size = new System.Drawing.Size(198, 20);
             this.tctext.TabIndex = 33;
@@ -112,7 +114,7 @@ namespace WindowsFormsApp2
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(439, 178);
+            this.label6.Location = new System.Drawing.Point(437, 136);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(81, 19);
             this.label6.TabIndex = 32;
@@ -120,7 +122,7 @@ namespace WindowsFormsApp2
             // 
             // dogumtext
             // 
-            this.dogumtext.Location = new System.Drawing.Point(599, 142);
+            this.dogumtext.Location = new System.Drawing.Point(597, 100);
             this.dogumtext.Name = "dogumtext";
             this.dogumtext.Size = new System.Drawing.Size(198, 20);
             this.dogumtext.TabIndex = 31;
@@ -129,7 +131,7 @@ namespace WindowsFormsApp2
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(439, 143);
+            this.label7.Location = new System.Drawing.Point(437, 101);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(115, 19);
             this.label7.TabIndex = 30;
@@ -137,7 +139,7 @@ namespace WindowsFormsApp2
             // 
             // bolumtext
             // 
-            this.bolumtext.Location = new System.Drawing.Point(216, 290);
+            this.bolumtext.Location = new System.Drawing.Point(214, 248);
             this.bolumtext.Name = "bolumtext";
             this.bolumtext.Size = new System.Drawing.Size(184, 20);
             this.bolumtext.TabIndex = 29;
@@ -146,7 +148,7 @@ namespace WindowsFormsApp2
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(116, 291);
+            this.label8.Location = new System.Drawing.Point(114, 249);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 19);
             this.label8.TabIndex = 28;
@@ -154,7 +156,7 @@ namespace WindowsFormsApp2
             // 
             // adrestext
             // 
-            this.adrestext.Location = new System.Drawing.Point(216, 251);
+            this.adrestext.Location = new System.Drawing.Point(214, 209);
             this.adrestext.Name = "adrestext";
             this.adrestext.Size = new System.Drawing.Size(184, 20);
             this.adrestext.TabIndex = 27;
@@ -163,7 +165,7 @@ namespace WindowsFormsApp2
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(116, 247);
+            this.label3.Location = new System.Drawing.Point(114, 205);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 19);
             this.label3.TabIndex = 26;
@@ -171,7 +173,7 @@ namespace WindowsFormsApp2
             // 
             // notext
             // 
-            this.notext.Location = new System.Drawing.Point(216, 214);
+            this.notext.Location = new System.Drawing.Point(214, 172);
             this.notext.Name = "notext";
             this.notext.Size = new System.Drawing.Size(184, 20);
             this.notext.TabIndex = 25;
@@ -180,7 +182,7 @@ namespace WindowsFormsApp2
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(116, 210);
+            this.label4.Location = new System.Drawing.Point(114, 168);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(72, 19);
             this.label4.TabIndex = 24;
@@ -188,7 +190,7 @@ namespace WindowsFormsApp2
             // 
             // soyisimtext
             // 
-            this.soyisimtext.Location = new System.Drawing.Point(216, 179);
+            this.soyisimtext.Location = new System.Drawing.Point(214, 137);
             this.soyisimtext.Name = "soyisimtext";
             this.soyisimtext.Size = new System.Drawing.Size(184, 20);
             this.soyisimtext.TabIndex = 23;
@@ -198,7 +200,7 @@ namespace WindowsFormsApp2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(116, 175);
+            this.label2.Location = new System.Drawing.Point(114, 133);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 19);
             this.label2.TabIndex = 22;
@@ -207,7 +209,7 @@ namespace WindowsFormsApp2
             // 
             // isimtext
             // 
-            this.isimtext.Location = new System.Drawing.Point(216, 142);
+            this.isimtext.Location = new System.Drawing.Point(214, 100);
             this.isimtext.Name = "isimtext";
             this.isimtext.Size = new System.Drawing.Size(184, 20);
             this.isimtext.TabIndex = 21;
@@ -216,7 +218,7 @@ namespace WindowsFormsApp2
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(116, 142);
+            this.label1.Location = new System.Drawing.Point(114, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 19);
             this.label1.TabIndex = 20;
@@ -224,7 +226,7 @@ namespace WindowsFormsApp2
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(430, 351);
+            this.button2.Location = new System.Drawing.Point(390, 355);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 34);
             this.button2.TabIndex = 42;
@@ -258,7 +260,7 @@ namespace WindowsFormsApp2
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(440, 254);
+            this.label11.Location = new System.Drawing.Point(438, 212);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(135, 17);
             this.label11.TabIndex = 45;
@@ -266,16 +268,35 @@ namespace WindowsFormsApp2
             // 
             // ogrnotext
             // 
-            this.ogrnotext.Location = new System.Drawing.Point(599, 251);
+            this.ogrnotext.Location = new System.Drawing.Point(597, 209);
             this.ogrnotext.Name = "ogrnotext";
             this.ogrnotext.Size = new System.Drawing.Size(198, 20);
             this.ogrnotext.TabIndex = 47;
+            // 
+            // ogrsif
+            // 
+            this.ogrsif.Location = new System.Drawing.Point(597, 248);
+            this.ogrsif.Name = "ogrsif";
+            this.ogrsif.Size = new System.Drawing.Size(198, 20);
+            this.ogrsif.TabIndex = 48;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.label12.Location = new System.Drawing.Point(438, 252);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(42, 17);
+            this.label12.TabIndex = 49;
+            this.label12.Text = "ŞİFRE:";
             // 
             // yeniKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 462);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.ogrsif);
             this.Controls.Add(this.ogrnotext);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button7);
@@ -337,5 +358,7 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.TextBox isimtext;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox ogrnotext;
+        private System.Windows.Forms.TextBox ogrsif;
+        private System.Windows.Forms.Label label12;
     }
 }

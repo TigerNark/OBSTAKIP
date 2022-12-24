@@ -30,9 +30,11 @@ namespace WindowsFormsApp2
 
             OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
 
-            OleDbCommand sorgu = new OleDbCommand();//sorgu komut yapısı oluşturuldu
+            OleDbCommand sorgu = new OleDbCommand();
+            OleDbCommand sorgu1 = new OleDbCommand();//sorgu komut yapısı oluşturuldu
             baglanti.Open();// bağlantı açıldı
-            sorgu.Connection = baglanti;//hangi bağlantıda kullanılacak
+            sorgu.Connection = baglanti;
+            sorgu1.Connection = baglanti;//hangi bağlantıda kullanılacak
 
             string isim = isimtext.Text;
             string Soyisim = soyisimtext.Text;
@@ -44,6 +46,7 @@ namespace WindowsFormsApp2
             string cep_no = notext.Text;
             string adres = adrestext.Text;
             string ogrno = ogrnotext.Text;
+            string sifre = ogrsif.Text;
 
             sorgu.CommandType = CommandType.Text;
             sorgu.CommandText = "insert into Ogrenci_kayitlari (isim,Soyisim,dogum_tarihi,mail,kimlik_no,bolum,kayit_tarihi,cep_no,adres,ogrno) values (@İsim,@Soyisim,@dogum_tarihi,@mail,@kimlik_no,@bolum,@kayit_tarihi,@cep_no,@adres,@ogrno)";
@@ -63,6 +66,18 @@ namespace WindowsFormsApp2
 
             int rowsAffected = sorgu.ExecuteNonQuery();
             Console.WriteLine($"{rowsAffected} rows were updated.");
+
+            string ogrencino = ogrnotext.Text;
+
+            sorgu1.CommandType = CommandType.Text;
+            sorgu1.CommandText = "insert into Login (ogrencino,sifre) values (@ogrencino,@sifre)";
+
+            sorgu1.Parameters.AddWithValue("@ogrencino", ogrencino);
+            sorgu1.Parameters.AddWithValue("@sifre", sifre);
+
+            int rowsAffected1 = sorgu1.ExecuteNonQuery();
+            Console.WriteLine($"{rowsAffected} rows were updated.");
+
 
             //sorgu.ExecuteNonQuery();//update,insert,delete sorgularını çalıştırır ve geriye kaç satırlık işlem yapıldığı ile ilgili bilgi int türünde geri döner.
 
