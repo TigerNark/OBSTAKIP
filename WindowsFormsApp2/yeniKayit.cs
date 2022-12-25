@@ -32,9 +32,11 @@ namespace WindowsFormsApp2
 
             OleDbCommand sorgu = new OleDbCommand();
             OleDbCommand sorgu1 = new OleDbCommand();//sorgu komut yapısı oluşturuldu
+            OleDbCommand sorgu2 = new OleDbCommand();
             baglanti.Open();// bağlantı açıldı
             sorgu.Connection = baglanti;
             sorgu1.Connection = baglanti;//hangi bağlantıda kullanılacak
+            sorgu2.Connection = baglanti;
 
             string isim = isimtext.Text;
             string Soyisim = soyisimtext.Text;
@@ -76,6 +78,16 @@ namespace WindowsFormsApp2
             sorgu1.Parameters.AddWithValue("@sifre", sifre);
 
             int rowsAffected1 = sorgu1.ExecuteNonQuery();
+            Console.WriteLine($"{rowsAffected} rows were updated.");
+
+            sorgu2.CommandType = CommandType.Text;
+            sorgu2.CommandText = "insert into notlar (ogrencino,ogrenciIsim,ogrenciSoyisim) values (@ogrencino,@isim,@soyisim)";
+
+            sorgu2.Parameters.AddWithValue("@ogrencino", ogrencino);
+            sorgu2.Parameters.AddWithValue("@isim", isim);
+            sorgu2.Parameters.AddWithValue("@soyisim", Soyisim);
+
+            int rowsAffected2 = sorgu2.ExecuteNonQuery();
             Console.WriteLine($"{rowsAffected} rows were updated.");
 
 

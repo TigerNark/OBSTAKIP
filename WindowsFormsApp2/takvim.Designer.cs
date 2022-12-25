@@ -62,7 +62,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "takvim";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Akademik Takvim";
+            this.Text = "Transkripsiyon";
             this.Load += new System.EventHandler(this.takvim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

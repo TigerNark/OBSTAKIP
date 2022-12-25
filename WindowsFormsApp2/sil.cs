@@ -37,11 +37,20 @@ namespace WindowsFormsApp2
         {
             //Kayıt sil butonu
 
+            string numara = ogrno.Text;
             string sorgu = "Delete From Ogrenci_kayitlari Where ogrno=@ogrno";
+            string sorgu1 = "Delete From notlar Where ogrenciNo=@ogrno";
+            string sorgu2 = "Delete From Login Where ogrencino=@ogrno";
             komut = new OleDbCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@ogrno", dataGridView1.CurrentRow.Cells[9].Value);
+            komut1 = new OleDbCommand(sorgu1, baglanti);
+            komut2 = new OleDbCommand(sorgu2, baglanti);
+            komut.Parameters.AddWithValue("@ogrno", numara);
+            komut1.Parameters.AddWithValue("@ogrno", numara);
+            komut2.Parameters.AddWithValue("@ogrno", numara);
             baglanti.Open();
             komut.ExecuteNonQuery();
+            komut1.ExecuteNonQuery();
+            komut2.ExecuteNonQuery();
             baglanti.Close();
             KisiListele();
             
@@ -87,7 +96,8 @@ namespace WindowsFormsApp2
         OleDbConnection baglanti;
         OleDbCommand komut;
         OleDbDataAdapter da;
-
+        OleDbCommand komut1;
+        OleDbCommand komut2;
         void KisiListele()
         {
             baglanti = new OleDbConnection("Provider=Microsoft.ACE.OleDb.12.0;Data Source=obstakip.accdb");
@@ -97,6 +107,7 @@ namespace WindowsFormsApp2
             da.Fill(tablo);
             dataGridView1.DataSource = tablo;
             baglanti.Close();
+            
         }
 
 

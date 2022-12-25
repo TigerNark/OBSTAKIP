@@ -20,9 +20,27 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-      
+        public string oNumara;
+
+        private void ogrbelge_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ogrenciGirisi belge = new ogrenciGirisi();
             
-            
-        
+            belge.Show();
+            this.Close();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ogrenciGirisi belge = new ogrenciGirisi();
+
+            belge.Show();
+            this.Close();
+        }
     }
 }
