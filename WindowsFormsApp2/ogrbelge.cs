@@ -8,8 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+
 
 namespace WindowsFormsApp2
 {
@@ -19,28 +18,11 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-
         public string oNumara;
 
         private void ogrbelge_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            ogrenciGirisi belge = new ogrenciGirisi();
-            
-            belge.Show();
-            this.Close();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            ogrenciGirisi belge = new ogrenciGirisi();
-
-            belge.Show();
-            this.Close();
         }
     }
 }

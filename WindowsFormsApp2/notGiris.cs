@@ -97,19 +97,7 @@ namespace WindowsFormsApp2
                 reader.Read();
                 sorgulananİsim.Text = reader["ogrenciIsim"].ToString();
                 sorgulananSoyisim.Text = reader["ogrenciSoyisim"].ToString();
-                /*{ if (comboBox1.Text=="FİZİK")
-                {
-                    vize1.Text = reader["fizik1"].ToString();
-                    final1.Text = reader["fizik2"].ToString();
-                }
-                else if (comboBox1.Text=="KİMYA")
-                {
-                    vize1.Text = reader["kimya1"].ToString();
-                    final1.Text = reader["kimya2"].ToString();
-
-                }
                 
-              */
 
             }
             else
@@ -125,13 +113,148 @@ namespace WindowsFormsApp2
 
         }
 
-        void sorgu(object sender, EventArgs e)
-        {
-
-        }
         private void button1_Click(object sender, EventArgs e)
         {
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+            reader.Read();
+            vize1.Text = reader["fizik1"].ToString();
+            final1.Text = reader["fizik2"].ToString();
+            
+            //double fNotu = ((((double)reader["fizik1"])* 0.4) + ((double)reader["fizik2"]) *0.6 );
+            int Vnotu = (int)reader["fizik1"];
+            int Fnotu  = (int)reader["fizik2"];
 
+            double Sonuc = ((Vnotu * 0.4) + (Fnotu * 0.6 ));
+            if (Sonuc > 60)
+            {
+                sonuç1.Text = "GEÇTİ";
+            }
+            else
+            {
+                sonuç1.Text = "KALDI";
+            }
+            ortalama1.Text = Sonuc.ToString();
+        }
+
+        private void kimya_Click(object sender, EventArgs e)
+        {
+
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+            reader.Read();
+            vize1.Text = reader["kimya1"].ToString();
+            final1.Text = reader["kimya2"].ToString();
+
+            //double fNotu = ((((double)reader["fizik1"])* 0.4) + ((double)reader["fizik2"]) *0.6 );
+            int Vnotu = (int)reader["kimya1"];
+            int Fnotu = (int)reader["kimya2"];
+
+            double Sonuc = ((Vnotu * 0.4) + (Fnotu * 0.6));
+            if (Sonuc > 60)
+            {
+                sonuç1.Text = "GEÇTİ";
+            }
+            else
+            {
+                sonuç1.Text = "KALDI";
+            }
+            ortalama1.Text = Sonuc.ToString();
+        }
+
+        private void biyo_Click(object sender, EventArgs e)
+        {
+
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+            reader.Read();
+            vize1.Text = reader["mat1"].ToString();
+            final1.Text = reader["mat2"].ToString();
+
+            //double fNotu = ((((double)reader["fizik1"])* 0.4) + ((double)reader["fizik2"]) *0.6 );
+            int Vnotu = (int)reader["mat1"];
+            int Fnotu = (int)reader["mat2"];
+
+            double Sonuc = ((Vnotu * 0.4) + (Fnotu * 0.6));
+            if (Sonuc > 60)
+            {
+                sonuç1.Text = "GEÇTİ";
+            }
+            else
+            {
+                sonuç1.Text = "KALDI";
+            }
+            ortalama1.Text = Sonuc.ToString();
+        }
+
+        private void lab_Click(object sender, EventArgs e)
+        {
+
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+            reader.Read();
+            vize1.Text = reader["lab1"].ToString();
+            final1.Text = reader["lab2"].ToString();
+
+            //double fNotu = ((((double)reader["fizik1"])* 0.4) + ((double)reader["fizik2"]) *0.6 );
+            int Vnotu = (int)reader["lab1"];
+            int Fnotu = (int)reader["lab2"];
+
+            double Sonuc = ((Vnotu * 0.4) + (Fnotu * 0.6));
+            if (Sonuc > 60)
+            {
+                sonuç1.Text = "GEÇTİ";
+            }
+            else
+            {
+                sonuç1.Text = "KALDI";
+            }
+            ortalama1.Text = Sonuc.ToString();
+        }
+
+        private void prog_Click(object sender, EventArgs e)
+        {
+
+            OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+            string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+            OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+            command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+            baglanti.Open();
+            OleDbDataReader reader = command.ExecuteReader();
+            reader.Read();
+            vize1.Text = reader["prog1"].ToString();
+            final1.Text = reader["prog2"].ToString();
+
+            //double fNotu = ((((double)reader["fizik1"])* 0.4) + ((double)reader["fizik2"]) *0.6 );
+            int Vnotu = (int)reader["prog1"];
+            int Fnotu = (int)reader["prog2"];
+
+            double Sonuc = ((Vnotu * 0.4) + (Fnotu * 0.6));
+            if (Sonuc > 60)
+            {
+                sonuç1.Text = "GEÇTİ";
+            }
+            else
+            {
+                sonuç1.Text = "KALDI";
+            }
+            ortalama1.Text = Sonuc.ToString();
         }
     }
 }
