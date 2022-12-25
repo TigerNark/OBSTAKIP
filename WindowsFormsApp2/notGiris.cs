@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -46,10 +47,89 @@ namespace WindowsFormsApp2
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        OleDbConnection con1;
+        OleDbCommand cmd1;
+        OleDbDataReader dr1;
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string no = sorgulananOgrenciNo.Text;
+            string no2 = sorgulananOgrenciNo.Text;
+
+            con1 = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
+            cmd1 = new OleDbCommand();
+            con1.Open();
+            cmd1.Connection = con1;
+            cmd1.CommandText = "SELECT * FROM Ogrenci_kayitlari where ogrno='" + no + "' AND ogrno='" + no2 + "'";
+            dr1 = cmd1.ExecuteReader();
+            if (dr1.Read())
+            {
+                // Veritabanına bağlanmak için bir OleDbConnection nesnesi oluşturun
+                OleDbConnection baglanti = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=obstakip.accdb");
+                string sorgu = "SELECT * FROM notlar WHERE ogrenciNo = @ogrenciNo";
+                OleDbCommand command = new OleDbCommand(sorgu, baglanti);
+                command.Parameters.AddWithValue("@ogrenciNo", sorgulananOgrenciNo.Text);
+                baglanti.Open();
+                OleDbDataReader reader = command.ExecuteReader();
+                reader.Read();
+                sorgulananİsim.Text = reader["ogrenciIsim"].ToString();
+                sorgulananSoyisim.Text = reader["ogrenciSoyisim"].ToString();
+                /*{ if (comboBox1.Text=="FİZİK")
+                {
+                    vize1.Text = reader["fizik1"].ToString();
+                    final1.Text = reader["fizik2"].ToString();
+                }
+                else if (comboBox1.Text=="KİMYA")
+                {
+                    vize1.Text = reader["kimya1"].ToString();
+                    final1.Text = reader["kimya2"].ToString();
+
+                }
+                
+              */
+
+            }
+            else
+            {
+                MessageBox.Show("Böyle bir öğrenci yok");
+            }
+                
+            con1.Close();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        void sorgu(object sender, EventArgs e)
+        {
+
+        }
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
