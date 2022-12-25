@@ -50,11 +50,11 @@ namespace WindowsFormsApp2
             this.ortalama1 = new System.Windows.Forms.Label();
             this.final1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.fizik = new System.Windows.Forms.Button();
+            this.lab = new System.Windows.Forms.Button();
+            this.biyo = new System.Windows.Forms.Button();
+            this.kimya = new System.Windows.Forms.Button();
+            this.prog = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +71,7 @@ namespace WindowsFormsApp2
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(493, 329);
+            this.label1.Location = new System.Drawing.Point(482, 378);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 26);
             this.label1.TabIndex = 12;
@@ -80,7 +80,7 @@ namespace WindowsFormsApp2
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(474, 276);
+            this.label3.Location = new System.Drawing.Point(463, 325);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 23);
             this.label3.TabIndex = 13;
@@ -89,7 +89,7 @@ namespace WindowsFormsApp2
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(459, 222);
+            this.label4.Location = new System.Drawing.Point(448, 271);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 23);
             this.label4.TabIndex = 14;
@@ -99,7 +99,7 @@ namespace WindowsFormsApp2
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(470, 173);
+            this.label5.Location = new System.Drawing.Point(459, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 23);
             this.label5.TabIndex = 15;
@@ -131,7 +131,7 @@ namespace WindowsFormsApp2
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(9, 359);
+            this.label7.Location = new System.Drawing.Point(48, 355);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 31);
             this.label7.TabIndex = 29;
@@ -141,7 +141,7 @@ namespace WindowsFormsApp2
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(36, 310);
+            this.label8.Location = new System.Drawing.Point(75, 306);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(105, 31);
             this.label8.TabIndex = 30;
@@ -183,7 +183,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananİsim.AutoSize = true;
             this.sorgulananİsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananİsim.Location = new System.Drawing.Point(154, 311);
+            this.sorgulananİsim.Location = new System.Drawing.Point(193, 307);
             this.sorgulananİsim.Name = "sorgulananİsim";
             this.sorgulananİsim.Size = new System.Drawing.Size(68, 22);
             this.sorgulananİsim.TabIndex = 43;
@@ -193,7 +193,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananSoyisim.AutoSize = true;
             this.sorgulananSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananSoyisim.Location = new System.Drawing.Point(154, 360);
+            this.sorgulananSoyisim.Location = new System.Drawing.Point(193, 356);
             this.sorgulananSoyisim.Name = "sorgulananSoyisim";
             this.sorgulananSoyisim.Size = new System.Drawing.Size(68, 22);
             this.sorgulananSoyisim.TabIndex = 44;
@@ -213,41 +213,41 @@ namespace WindowsFormsApp2
             // 
             this.sonuç1.AutoSize = true;
             this.sonuç1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sonuç1.Location = new System.Drawing.Point(591, 329);
+            this.sonuç1.Location = new System.Drawing.Point(580, 378);
             this.sonuç1.Name = "sonuç1";
-            this.sonuç1.Size = new System.Drawing.Size(68, 22);
+            this.sonuç1.Size = new System.Drawing.Size(48, 22);
             this.sonuç1.TabIndex = 46;
-            this.sonuç1.Text = "label11";
+            this.sonuç1.Text = "label";
             // 
             // vize1
             // 
             this.vize1.AutoSize = true;
             this.vize1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.vize1.Location = new System.Drawing.Point(591, 178);
+            this.vize1.Location = new System.Drawing.Point(580, 227);
             this.vize1.Name = "vize1";
-            this.vize1.Size = new System.Drawing.Size(68, 22);
+            this.vize1.Size = new System.Drawing.Size(48, 22);
             this.vize1.TabIndex = 46;
-            this.vize1.Text = "label11";
+            this.vize1.Text = "label";
             // 
             // ortalama1
             // 
             this.ortalama1.AutoSize = true;
             this.ortalama1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.ortalama1.Location = new System.Drawing.Point(591, 277);
+            this.ortalama1.Location = new System.Drawing.Point(580, 326);
             this.ortalama1.Name = "ortalama1";
-            this.ortalama1.Size = new System.Drawing.Size(68, 22);
+            this.ortalama1.Size = new System.Drawing.Size(48, 22);
             this.ortalama1.TabIndex = 47;
-            this.ortalama1.Text = "label11";
+            this.ortalama1.Text = "label";
             // 
             // final1
             // 
             this.final1.AutoSize = true;
             this.final1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.final1.Location = new System.Drawing.Point(591, 228);
+            this.final1.Location = new System.Drawing.Point(580, 277);
             this.final1.Name = "final1";
-            this.final1.Size = new System.Drawing.Size(68, 22);
+            this.final1.Size = new System.Drawing.Size(48, 22);
             this.final1.TabIndex = 48;
-            this.final1.Text = "label11";
+            this.final1.Text = "label";
             // 
             // label6
             // 
@@ -258,56 +258,60 @@ namespace WindowsFormsApp2
             this.label6.TabIndex = 16;
             this.label6.Text = "Ders Seçiniz";
             // 
-            // button1
+            // fizik
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button1.Location = new System.Drawing.Point(463, 93);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 23);
-            this.button1.TabIndex = 49;
-            this.button1.Text = "GERİ";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.fizik.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.fizik.Location = new System.Drawing.Point(463, 93);
+            this.fizik.Name = "fizik";
+            this.fizik.Size = new System.Drawing.Size(98, 32);
+            this.fizik.TabIndex = 49;
+            this.fizik.Text = "FİZİK";
+            this.fizik.UseVisualStyleBackColor = true;
+            this.fizik.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // lab
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button4.Location = new System.Drawing.Point(463, 131);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(98, 23);
-            this.button4.TabIndex = 50;
-            this.button4.Text = "GERİ";
-            this.button4.UseVisualStyleBackColor = true;
+            this.lab.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lab.Location = new System.Drawing.Point(775, 93);
+            this.lab.Name = "lab";
+            this.lab.Size = new System.Drawing.Size(98, 32);
+            this.lab.TabIndex = 51;
+            this.lab.Text = "LAB";
+            this.lab.UseVisualStyleBackColor = true;
+            this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
-            // button5
+            // biyo
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button5.Location = new System.Drawing.Point(775, 93);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(98, 23);
-            this.button5.TabIndex = 51;
-            this.button5.Text = "GERİ";
-            this.button5.UseVisualStyleBackColor = true;
+            this.biyo.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.biyo.Location = new System.Drawing.Point(671, 93);
+            this.biyo.Name = "biyo";
+            this.biyo.Size = new System.Drawing.Size(98, 32);
+            this.biyo.TabIndex = 52;
+            this.biyo.Text = "BİYOLOJİ";
+            this.biyo.UseVisualStyleBackColor = true;
+            this.biyo.Click += new System.EventHandler(this.biyo_Click);
             // 
-            // button6
+            // kimya
             // 
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button6.Location = new System.Drawing.Point(671, 93);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(98, 23);
-            this.button6.TabIndex = 52;
-            this.button6.Text = "V";
-            this.button6.UseVisualStyleBackColor = true;
+            this.kimya.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.kimya.Location = new System.Drawing.Point(567, 93);
+            this.kimya.Name = "kimya";
+            this.kimya.Size = new System.Drawing.Size(98, 32);
+            this.kimya.TabIndex = 53;
+            this.kimya.Text = "KİMYA";
+            this.kimya.UseVisualStyleBackColor = true;
+            this.kimya.Click += new System.EventHandler(this.kimya_Click);
             // 
-            // button8
+            // prog
             // 
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button8.Location = new System.Drawing.Point(567, 93);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(98, 23);
-            this.button8.TabIndex = 53;
-            this.button8.Text = "GERİ";
-            this.button8.UseVisualStyleBackColor = true;
+            this.prog.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.prog.Location = new System.Drawing.Point(615, 138);
+            this.prog.Name = "prog";
+            this.prog.Size = new System.Drawing.Size(130, 32);
+            this.prog.TabIndex = 54;
+            this.prog.Text = "PROGRAMLAMA";
+            this.prog.UseVisualStyleBackColor = true;
+            this.prog.Click += new System.EventHandler(this.prog_Click);
             // 
             // notGiris
             // 
@@ -315,11 +319,11 @@ namespace WindowsFormsApp2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(965, 462);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.prog);
+            this.Controls.Add(this.kimya);
+            this.Controls.Add(this.biyo);
+            this.Controls.Add(this.lab);
+            this.Controls.Add(this.fizik);
             this.Controls.Add(this.final1);
             this.Controls.Add(this.ortalama1);
             this.Controls.Add(this.vize1);
@@ -373,10 +377,10 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label ortalama1;
         private System.Windows.Forms.Label final1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button fizik;
+        private System.Windows.Forms.Button lab;
+        private System.Windows.Forms.Button biyo;
+        private System.Windows.Forms.Button kimya;
+        private System.Windows.Forms.Button prog;
     }
 }

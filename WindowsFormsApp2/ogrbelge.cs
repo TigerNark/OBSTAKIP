@@ -8,8 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+
 
 namespace WindowsFormsApp2
 {
@@ -19,10 +18,11 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+        public string oNumara;
 
-      
-            
-            
-        
+        private void ogrbelge_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

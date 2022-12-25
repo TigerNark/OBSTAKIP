@@ -40,7 +40,6 @@
             this.button7.TabIndex = 45;
             this.button7.Text = "GERİ";
             this.button7.UseVisualStyleBackColor = true;
-            
             // 
             // ogrbelge
             // 
@@ -52,7 +51,7 @@
             this.Name = "ogrbelge";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Öğrenci Belgesi";
-           
+            this.Load += new System.EventHandler(this.ogrbelge_Load);
             this.ResumeLayout(false);
 
         }
