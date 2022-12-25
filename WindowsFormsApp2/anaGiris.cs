@@ -183,6 +183,7 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Giriş Başarılı");
                 akademisyen aka2 = new akademisyen();
                 aka2.Show();
+                this.Hide();
             }
             else
             {
@@ -195,7 +196,7 @@ namespace WindowsFormsApp2
             /*// akademisyen giriş butonu
             akademisyen grs = new akademisyen();
             grs.Show();
-            this.Hide();*/ 
+            */ 
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

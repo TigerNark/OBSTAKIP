@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
 
         private void ogr_gor_Load(object sender, EventArgs e)
         {
@@ -38,6 +40,40 @@ namespace WindowsFormsApp2
             akademisyen a = new akademisyen();
             a.Show();
             this.Close();
+        }
+        OleDbConnection con1;
+        OleDbCommand cmd1;
+        OleDbDataReader dr1;
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string ad = textakogrno.Text;
+            string sifre = textakogrno.Text;
+            con1 = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=obstakip.accdb");
+            cmd1 = new OleDbCommand();
+            con1.Open();
+            cmd1.Connection = con1;
+            cmd1.CommandText = "SELECT * FROM Ogrenci_kayitlari where ogrno='" + ad + "' AND ogrno='" + sifre + "'";
+            dr1 = cmd1.ExecuteReader();
+            if (dr1.Read())
+            {
+                akademiöğrencigör frm = new akademiöğrencigör();
+                frm.GelenOgrNo = textakogrno.Text;
+                frm.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Böyle bir öğrenci yok");
+            }
+
+            con1.Close();
+
+            
+        }
+
+        private void textakogrno_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }
