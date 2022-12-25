@@ -33,10 +33,10 @@ namespace WindowsFormsApp2
             this.btnsil = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.ogrno = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tcno = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2.SuspendLayout();
@@ -57,7 +57,7 @@ namespace WindowsFormsApp2
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.ogrno);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.tcno);
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.btnsil);
             this.groupBox2.Controls.Add(this.label4);
@@ -80,14 +80,25 @@ namespace WindowsFormsApp2
             this.ogrno.TabIndex = 5;
             this.ogrno.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox1
+            // tcno
             // 
-            this.textBox1.Location = new System.Drawing.Point(344, 22);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 23);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tcno.Location = new System.Drawing.Point(344, 22);
+            this.tcno.Multiline = true;
+            this.tcno.Name = "tcno";
+            this.tcno.Size = new System.Drawing.Size(183, 23);
+            this.tcno.TabIndex = 4;
+            this.tcno.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.button7.Location = new System.Drawing.Point(656, 64);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(90, 31);
+            this.button7.TabIndex = 9;
+            this.button7.Text = "GERİ";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label4
             // 
@@ -111,17 +122,6 @@ namespace WindowsFormsApp2
             this.label2.Text = "TC Kimlik No:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button7.Location = new System.Drawing.Point(656, 64);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(90, 31);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "GERİ";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -141,6 +141,7 @@ namespace WindowsFormsApp2
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(945, 304);
             this.dataGridView1.TabIndex = 10;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // sil
             // 
@@ -166,7 +167,7 @@ namespace WindowsFormsApp2
         #endregion
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox ogrno;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tcno;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.Button btnsil;

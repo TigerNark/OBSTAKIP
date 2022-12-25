@@ -44,6 +44,7 @@ namespace WindowsFormsApp2
             komut.ExecuteNonQuery();
             baglanti.Close();
             KisiListele();
+            
 
         }
 
@@ -102,6 +103,14 @@ namespace WindowsFormsApp2
         private void sil_Load(object sender, EventArgs e)
         {
             KisiListele();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilen = dataGridView1.SelectedCells[0].RowIndex;
+
+            tcno.Text = dataGridView1.Rows[secilen].Cells[4].Value.ToString();
+            ogrno.Text = dataGridView1.Rows[secilen].Cells[9].Value.ToString();
         }
     }
 }

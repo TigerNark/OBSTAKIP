@@ -52,7 +52,6 @@ C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsF
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.sifreUnuttum.resources
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.sil.resources
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.takvim.resources
-C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.trans.resources
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.yeniKayit.resources
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
@@ -183,3 +182,5 @@ C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\BouncyCa
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\itextsharp.dll
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\bin\x64\Debug\itextsharp.xml
 C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.akademiöğrencigör.resources
+C:\Users\oocif\OneDrive\Masaüstü\Proje\WindowsFormsApp2\obj\x64\Debug\WindowsFormsApp2.ogrbelge.resources
