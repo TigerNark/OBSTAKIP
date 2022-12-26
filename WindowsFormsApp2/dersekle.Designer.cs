@@ -82,33 +82,30 @@ namespace WindowsFormsApp2
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 227);
+            this.dataGridView1.Location = new System.Drawing.Point(39, 207);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 46;
-            this.dataGridView1.Size = new System.Drawing.Size(905, 163);
+            this.dataGridView1.Size = new System.Drawing.Size(896, 231);
             this.dataGridView1.TabIndex = 47;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // sekiz
             // 
-            this.sekiz.Location = new System.Drawing.Point(301, 50);
+            this.sekiz.Location = new System.Drawing.Point(306, 50);
             this.sekiz.Name = "sekiz";
             this.sekiz.Size = new System.Drawing.Size(100, 20);
             this.sekiz.TabIndex = 48;
             // 
             // dokuz
             // 
-            this.dokuz.Location = new System.Drawing.Point(301, 97);
+            this.dokuz.Location = new System.Drawing.Point(306, 97);
             this.dokuz.Name = "dokuz";
             this.dokuz.Size = new System.Drawing.Size(100, 20);
             this.dokuz.TabIndex = 49;
             // 
             // on
             // 
-            this.on.Location = new System.Drawing.Point(301, 142);
+            this.on.Location = new System.Drawing.Point(306, 142);
             this.on.Name = "on";
             this.on.Size = new System.Drawing.Size(100, 20);
             this.on.TabIndex = 50;
@@ -151,72 +148,72 @@ namespace WindowsFormsApp2
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(214, 53);
+            this.label1.Location = new System.Drawing.Point(230, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 15);
+            this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 56;
             this.label1.Text = "08:00 - 08:45";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(214, 100);
+            this.label2.Location = new System.Drawing.Point(230, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 15);
+            this.label2.Size = new System.Drawing.Size(70, 13);
             this.label2.TabIndex = 57;
             this.label2.Text = "09:00 - 09:45";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 145);
+            this.label3.Location = new System.Drawing.Point(230, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 15);
+            this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 58;
             this.label3.Text = "10:00 - 10:45";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(408, 53);
+            this.label4.Location = new System.Drawing.Point(413, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 15);
+            this.label4.Size = new System.Drawing.Size(70, 13);
             this.label4.TabIndex = 59;
             this.label4.Text = "11:00 - 11:45";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(408, 143);
+            this.label5.Location = new System.Drawing.Point(413, 143);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 15);
+            this.label5.Size = new System.Drawing.Size(70, 13);
             this.label5.TabIndex = 60;
             this.label5.Text = "13:00 - 13:45";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(607, 52);
+            this.label6.Location = new System.Drawing.Point(615, 52);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 15);
+            this.label6.Size = new System.Drawing.Size(70, 13);
             this.label6.TabIndex = 61;
             this.label6.Text = "14:00 - 14:45";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(607, 99);
+            this.label7.Location = new System.Drawing.Point(615, 99);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 15);
+            this.label7.Size = new System.Drawing.Size(67, 13);
             this.label7.TabIndex = 62;
             this.label7.Text = "15:00 -15:45";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(607, 145);
+            this.label8.Location = new System.Drawing.Point(615, 145);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 15);
+            this.label8.Size = new System.Drawing.Size(70, 13);
             this.label8.TabIndex = 63;
             this.label8.Text = "16:00 - 16:45";
             // 
@@ -243,16 +240,16 @@ namespace WindowsFormsApp2
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(36, 104);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(37, 15);
+            this.label9.Size = new System.Drawing.Size(34, 13);
             this.label9.TabIndex = 84;
             this.label9.Text = "GÜN:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(408, 100);
+            this.label10.Location = new System.Drawing.Point(413, 100);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 15);
+            this.label10.Size = new System.Drawing.Size(70, 13);
             this.label10.TabIndex = 86;
             this.label10.Text = "12:00 - 12:45";
             // 
