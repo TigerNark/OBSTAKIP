@@ -29,7 +29,7 @@ namespace WindowsFormsApp2
             this.Close();
         }
 
-        private void notBilgileri_Load(object sender, EventArgs e)
+        public void notBilgileri_Load(object sender, EventArgs e)
         {
             ders1.Text = "MATEMATİK";
             ders2.Text = "FİZİK";
@@ -68,9 +68,30 @@ namespace WindowsFormsApp2
                     dersBesVize.Text = reader["prog1"].ToString();
                     dersBesFinal.Text = reader["prog2"].ToString();
 
+                    int VnotuKimya = (int)reader["kimya1"];
+                    int FnotuKimya = (int)reader["kimya2"];
+                    int VnotuMat = (int)reader["mat1"];
+                    int FnotuMat = (int)reader["mat2"];
+                    int VnotuLab = (int)reader["lab1"];
+                    int FnotuLab = (int)reader["lab2"];
+                    int VnotuProg = (int)reader["prog1"];
+                    int FnotuProg = (int)reader["prog2"];
+                    int VnotuFizik = (int)reader["fizik1"];
+                    int FnotuFizik = (int)reader["fizik2"];
+
+                    double SonucKimya = ((VnotuKimya * 0.4) + (FnotuKimya * 0.6));
+                    double SonucFizik = ((VnotuFizik * 0.4) + (FnotuFizik * 0.6));
+                    double SonucMat = ((VnotuMat * 0.4) + (FnotuMat * 0.6));
+                    double SonucLab = ((VnotuLab * 0.4) + (FnotuLab * 0.6));
+                    double SonucProg = ((VnotuProg * 0.4) + (FnotuProg * 0.6));
+
+                    DersBirGenel.Text = SonucMat.ToString();
+                    DersIkiGenel.Text = SonucFizik.ToString();
+                    DersUcGenel.Text = SonucKimya.ToString();
+                    DersDortGenel.Text = SonucLab.ToString();
+                    DersBesGenel.Text = SonucProg.ToString();
                 }
-
-
+                
             }
 
             reader.Close();

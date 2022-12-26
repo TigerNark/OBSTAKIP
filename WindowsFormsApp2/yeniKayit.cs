@@ -95,7 +95,17 @@ namespace WindowsFormsApp2
 
             MessageBox.Show("Kaydınız gerçekleştirilmiştir.", "Kayır İşlemi");
             baglanti.Close();// bağlantı kapatıldı.
-
+            isimtext.Clear();
+            soyisimtext.Clear();
+            notext.Clear();
+            adrestext.Clear();
+            bolumtext.Clear();
+            mailtext.Clear();
+            dogumtext.Clear();
+            ogrnotext.Clear();
+            ogrsif.Clear();
+            tctext.Clear();
+            kayıttext.Clear();
         }
 
         private void button7_Click(object sender, EventArgs e)
