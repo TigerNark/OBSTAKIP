@@ -27,15 +27,7 @@ namespace WindowsFormsApp2
             a.Show();
             this.Close();
         }
-        void Veriler()
-        {
-            OleDbDataAdapter da = new OleDbDataAdapter("SELECT *FROM [dersProgrami$]", baglanti);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
-
-
-        }
+        
 
         public string oNumara;
         public int num;
