@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp2
 {
@@ -26,36 +27,22 @@ namespace WindowsFormsApp2
             a.Show();
             this.Close();
         }
+        void Veriler()
+        {
+            OleDbDataAdapter da = new OleDbDataAdapter("SELECT *FROM [dersProgrami$]", baglanti);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+
+        }
 
         public string oNumara;
         public int num;
         private void devamsizlikGör_Load(object sender, EventArgs e)
         {
-            string filePath = @"cSharpProje.xlsx";
-            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filePath + ";Extended Properties=Excel 12.0;";
+            OGno.Text = oNumara;
 
-            using (OleDbConnection connection = new OleDbConnection(connectionString))
-            {
-                connection.Open();
-                // Excel dosyası açıldı
-                string sheetName = "devamsizlik";
-                string query = "SELECT * FROM [" + sheetName + "$] WHERE [ogrno] = @studentNumber";
-
-                using (OleDbCommand command = new OleDbCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@studentNumber", oNumara);
-                    using (OleDbDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            // Öğrenci numarasına eşit olan satır bulundu
-                            string cellValue = reader["A1"].ToString();
-                            MessageBox.Show("a1: " + cellValue);
-                        }
-                    }
-                }
-
-            }
 
 
         }
@@ -68,6 +55,11 @@ namespace WindowsFormsApp2
         private void matdev_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }

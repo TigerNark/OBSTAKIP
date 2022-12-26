@@ -118,6 +118,10 @@ namespace WindowsFormsApp2
             baglanti.Close();
 
             //MessageBox.Show(nomail + " " + tcno);
+            nomail.Clear();
+            tcno.Clear();
+            akaMail.Clear();
+            AkaSifre.Clear();
         }
     }
 }

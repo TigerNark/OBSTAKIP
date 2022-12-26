@@ -22,13 +22,17 @@ namespace WindowsFormsApp2
 
         private void ogrbelge_Load(object sender, EventArgs e)
         {
-
+            kisiselBilgi g = new kisiselBilgi();
+            g.GelenOgrNo = oNumara;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
+            kisiselBilgi g = new kisiselBilgi();
+            g.GelenOgrNo = oNumara;
             ogrenciGirisi ok = new ogrenciGirisi();
             ok.Show();
+            ok.girisYapmısOgrNo = oNumara;
             this.Hide();
         }
     }

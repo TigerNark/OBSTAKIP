@@ -21,7 +21,7 @@ namespace WindowsFormsApp2
         private void akademiöğrencigör_Load(object sender, EventArgs e)
         {
             labelOgrno.Text = GelenOgrNo;
-            MessageBox.Show("girilen no: " + GelenOgrNo);
+            //MessageBox.Show("girilen no: " + GelenOgrNo);
 
             // Veritabanına bağlanmak için OleDbConnection nesnesi oluşturun
             OleDbConnection connection = new OleDbConnection();

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Excel;
 
 namespace WindowsFormsApp2
 {
@@ -18,24 +19,18 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection(
-            @"Provider=Microsoft.ACE.OLEDB.12.0;
-            Data Source=cSharpProje.xlsx;
-            Extended Properties='Excel 12.0 Xml;HDR=YES'");
-        void Veriler()
-        {
-            OleDbDataAdapter da = new OleDbDataAdapter("SELECT *FROM [dersProgrami$]", baglanti);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
+
+        // Excel dosyasını açın
+        Application excelApp = new Application();
+        Workbook workbook = excelApp.Workbooks.Open(excelFilePath);
+        Worksheet worksheet = workbook.Worksheets[1]; // İlk sayfayı kullanın
 
 
-        }
 
 
         private void dersEkle_Load(object sender, EventArgs e)
         {
-            Veriler();
+
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -87,6 +82,11 @@ namespace WindowsFormsApp2
             iki.Text = dataGridView1.Rows[secilen].Cells[7].Value.ToString();
             üç.Text = dataGridView1.Rows[secilen].Cells[8].Value.ToString();
             dört.Text = dataGridView1.Rows[secilen].Cells[9].Value.ToString();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
