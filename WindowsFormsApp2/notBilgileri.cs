@@ -55,7 +55,7 @@ namespace WindowsFormsApp2
             if (reader.HasRows)
             {
 
-                while (reader.Read())
+                  while (reader.Read())
                 {
                     dersBirVize.Text = reader["mat1"].ToString();
                     dersBirFinal.Text = reader["mat2"].ToString();
@@ -90,6 +90,8 @@ namespace WindowsFormsApp2
                     DersUcGenel.Text = SonucKimya.ToString();
                     DersDortGenel.Text = SonucLab.ToString();
                     DersBesGenel.Text = SonucProg.ToString();
+
+
                 }
                 
             }

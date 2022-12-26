@@ -31,8 +31,6 @@ namespace WindowsFormsApp2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(notGiris));
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
@@ -48,29 +46,19 @@ namespace WindowsFormsApp2
             this.label6 = new System.Windows.Forms.Label();
             this.fizik = new System.Windows.Forms.Button();
             this.lab = new System.Windows.Forms.Button();
-            this.mat = new System.Windows.Forms.Button();
             this.kimya = new System.Windows.Forms.Button();
             this.prog = new System.Windows.Forms.Button();
             this.fv = new System.Windows.Forms.TextBox();
             this.ff = new System.Windows.Forms.TextBox();
-            this.fizort = new System.Windows.Forms.TextBox();
-            this.fizso = new System.Windows.Forms.TextBox();
-            this.progso = new System.Windows.Forms.TextBox();
-            this.progort = new System.Windows.Forms.TextBox();
             this.pf = new System.Windows.Forms.TextBox();
             this.pv = new System.Windows.Forms.TextBox();
-            this.labso = new System.Windows.Forms.TextBox();
-            this.labort = new System.Windows.Forms.TextBox();
             this.lf = new System.Windows.Forms.TextBox();
             this.lv = new System.Windows.Forms.TextBox();
-            this.matso = new System.Windows.Forms.TextBox();
-            this.matort = new System.Windows.Forms.TextBox();
             this.mf = new System.Windows.Forms.TextBox();
             this.mv = new System.Windows.Forms.TextBox();
-            this.kimso = new System.Windows.Forms.TextBox();
-            this.kimort = new System.Windows.Forms.TextBox();
             this.kf = new System.Windows.Forms.TextBox();
             this.kv = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,28 +72,10 @@ namespace WindowsFormsApp2
             this.label2.Text = "Öğrenci No";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(769, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 26);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Sonuç:";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(595, 176);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 23);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Ortalama:";
-            // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(431, 194);
+            this.label4.Location = new System.Drawing.Point(517, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 23);
             this.label4.TabIndex = 14;
@@ -115,7 +85,7 @@ namespace WindowsFormsApp2
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(243, 176);
+            this.label5.Location = new System.Drawing.Point(269, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 23);
             this.label5.TabIndex = 15;
@@ -147,7 +117,7 @@ namespace WindowsFormsApp2
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(707, 93);
+            this.label7.Location = new System.Drawing.Point(682, 99);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 31);
             this.label7.TabIndex = 29;
@@ -200,7 +170,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananİsim.AutoSize = true;
             this.sorgulananİsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananİsim.Location = new System.Drawing.Point(607, 108);
+            this.sorgulananİsim.Location = new System.Drawing.Point(607, 104);
             this.sorgulananİsim.Name = "sorgulananİsim";
             this.sorgulananİsim.Size = new System.Drawing.Size(0, 20);
             this.sorgulananİsim.TabIndex = 43;
@@ -210,7 +180,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananSoyisim.AutoSize = true;
             this.sorgulananSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananSoyisim.Location = new System.Drawing.Point(831, 99);
+            this.sorgulananSoyisim.Location = new System.Drawing.Point(827, 110);
             this.sorgulananSoyisim.Name = "sorgulananSoyisim";
             this.sorgulananSoyisim.Size = new System.Drawing.Size(0, 20);
             this.sorgulananSoyisim.TabIndex = 44;
@@ -256,17 +226,6 @@ namespace WindowsFormsApp2
             this.lab.UseVisualStyleBackColor = true;
             this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
-            // mat
-            // 
-            this.mat.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.mat.Location = new System.Drawing.Point(42, 308);
-            this.mat.Name = "mat";
-            this.mat.Size = new System.Drawing.Size(98, 32);
-            this.mat.TabIndex = 52;
-            this.mat.Text = "MATEMATİK";
-            this.mat.UseVisualStyleBackColor = true;
-            this.mat.Click += new System.EventHandler(this.biyo_Click);
-            // 
             // kimya
             // 
             this.kimya.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -292,7 +251,7 @@ namespace WindowsFormsApp2
             // fv
             // 
             this.fv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fv.Location = new System.Drawing.Point(178, 220);
+            this.fv.Location = new System.Drawing.Point(245, 223);
             this.fv.Multiline = true;
             this.fv.Name = "fv";
             this.fv.Size = new System.Drawing.Size(152, 23);
@@ -302,57 +261,17 @@ namespace WindowsFormsApp2
             // ff
             // 
             this.ff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ff.Location = new System.Drawing.Point(365, 220);
+            this.ff.Location = new System.Drawing.Point(490, 223);
             this.ff.Multiline = true;
             this.ff.Name = "ff";
             this.ff.Size = new System.Drawing.Size(152, 23);
             this.ff.TabIndex = 56;
             this.ff.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // fizort
-            // 
-            this.fizort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fizort.Location = new System.Drawing.Point(555, 220);
-            this.fizort.Multiline = true;
-            this.fizort.Name = "fizort";
-            this.fizort.Size = new System.Drawing.Size(152, 23);
-            this.fizort.TabIndex = 57;
-            this.fizort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // fizso
-            // 
-            this.fizso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fizso.Location = new System.Drawing.Point(723, 220);
-            this.fizso.Multiline = true;
-            this.fizso.Name = "fizso";
-            this.fizso.Size = new System.Drawing.Size(152, 23);
-            this.fizso.TabIndex = 58;
-            this.fizso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // progso
-            // 
-            this.progso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.progso.Location = new System.Drawing.Point(723, 390);
-            this.progso.Multiline = true;
-            this.progso.Name = "progso";
-            this.progso.Size = new System.Drawing.Size(152, 23);
-            this.progso.TabIndex = 62;
-            this.progso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // progort
-            // 
-            this.progort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.progort.Location = new System.Drawing.Point(555, 390);
-            this.progort.Multiline = true;
-            this.progort.Name = "progort";
-            this.progort.Size = new System.Drawing.Size(152, 23);
-            this.progort.TabIndex = 61;
-            this.progort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // pf
             // 
             this.pf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pf.Location = new System.Drawing.Point(365, 390);
+            this.pf.Location = new System.Drawing.Point(490, 393);
             this.pf.Multiline = true;
             this.pf.Name = "pf";
             this.pf.Size = new System.Drawing.Size(152, 23);
@@ -362,37 +281,17 @@ namespace WindowsFormsApp2
             // pv
             // 
             this.pv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pv.Location = new System.Drawing.Point(178, 390);
+            this.pv.Location = new System.Drawing.Point(245, 393);
             this.pv.Multiline = true;
             this.pv.Name = "pv";
             this.pv.Size = new System.Drawing.Size(152, 23);
             this.pv.TabIndex = 59;
             this.pv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // labso
-            // 
-            this.labso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labso.Location = new System.Drawing.Point(723, 347);
-            this.labso.Multiline = true;
-            this.labso.Name = "labso";
-            this.labso.Size = new System.Drawing.Size(152, 23);
-            this.labso.TabIndex = 66;
-            this.labso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // labort
-            // 
-            this.labort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labort.Location = new System.Drawing.Point(555, 347);
-            this.labort.Multiline = true;
-            this.labort.Name = "labort";
-            this.labort.Size = new System.Drawing.Size(152, 23);
-            this.labort.TabIndex = 65;
-            this.labort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // lf
             // 
             this.lf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lf.Location = new System.Drawing.Point(365, 347);
+            this.lf.Location = new System.Drawing.Point(490, 350);
             this.lf.Multiline = true;
             this.lf.Name = "lf";
             this.lf.Size = new System.Drawing.Size(152, 23);
@@ -402,37 +301,17 @@ namespace WindowsFormsApp2
             // lv
             // 
             this.lv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lv.Location = new System.Drawing.Point(178, 347);
+            this.lv.Location = new System.Drawing.Point(245, 350);
             this.lv.Multiline = true;
             this.lv.Name = "lv";
             this.lv.Size = new System.Drawing.Size(152, 23);
             this.lv.TabIndex = 63;
             this.lv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // matso
-            // 
-            this.matso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.matso.Location = new System.Drawing.Point(723, 308);
-            this.matso.Multiline = true;
-            this.matso.Name = "matso";
-            this.matso.Size = new System.Drawing.Size(152, 23);
-            this.matso.TabIndex = 70;
-            this.matso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // matort
-            // 
-            this.matort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.matort.Location = new System.Drawing.Point(555, 308);
-            this.matort.Multiline = true;
-            this.matort.Name = "matort";
-            this.matort.Size = new System.Drawing.Size(152, 23);
-            this.matort.TabIndex = 69;
-            this.matort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // mf
             // 
             this.mf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mf.Location = new System.Drawing.Point(365, 308);
+            this.mf.Location = new System.Drawing.Point(490, 311);
             this.mf.Multiline = true;
             this.mf.Name = "mf";
             this.mf.Size = new System.Drawing.Size(152, 23);
@@ -442,37 +321,17 @@ namespace WindowsFormsApp2
             // mv
             // 
             this.mv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mv.Location = new System.Drawing.Point(178, 308);
+            this.mv.Location = new System.Drawing.Point(245, 311);
             this.mv.Multiline = true;
             this.mv.Name = "mv";
             this.mv.Size = new System.Drawing.Size(152, 23);
             this.mv.TabIndex = 67;
             this.mv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // kimso
-            // 
-            this.kimso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kimso.Location = new System.Drawing.Point(723, 262);
-            this.kimso.Multiline = true;
-            this.kimso.Name = "kimso";
-            this.kimso.Size = new System.Drawing.Size(152, 23);
-            this.kimso.TabIndex = 74;
-            this.kimso.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // kimort
-            // 
-            this.kimort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kimort.Location = new System.Drawing.Point(555, 262);
-            this.kimort.Multiline = true;
-            this.kimort.Name = "kimort";
-            this.kimort.Size = new System.Drawing.Size(152, 23);
-            this.kimort.TabIndex = 73;
-            this.kimort.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // kf
             // 
             this.kf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kf.Location = new System.Drawing.Point(365, 262);
+            this.kf.Location = new System.Drawing.Point(490, 265);
             this.kf.Multiline = true;
             this.kf.Name = "kf";
             this.kf.Size = new System.Drawing.Size(152, 23);
@@ -482,12 +341,23 @@ namespace WindowsFormsApp2
             // kv
             // 
             this.kv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kv.Location = new System.Drawing.Point(178, 262);
+            this.kv.Location = new System.Drawing.Point(245, 265);
             this.kv.Multiline = true;
             this.kv.Name = "kv";
             this.kv.Size = new System.Drawing.Size(152, 23);
             this.kv.TabIndex = 71;
             this.kv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.button1.Location = new System.Drawing.Point(42, 305);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 32);
+            this.button1.TabIndex = 73;
+            this.button1.Text = "MATEMATİK";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // notGiris
             // 
@@ -495,29 +365,19 @@ namespace WindowsFormsApp2
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(965, 462);
-            this.Controls.Add(this.kimso);
-            this.Controls.Add(this.kimort);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.kf);
             this.Controls.Add(this.kv);
-            this.Controls.Add(this.matso);
-            this.Controls.Add(this.matort);
             this.Controls.Add(this.mf);
             this.Controls.Add(this.mv);
-            this.Controls.Add(this.labso);
-            this.Controls.Add(this.labort);
             this.Controls.Add(this.lf);
             this.Controls.Add(this.lv);
-            this.Controls.Add(this.progso);
-            this.Controls.Add(this.progort);
             this.Controls.Add(this.pf);
             this.Controls.Add(this.pv);
-            this.Controls.Add(this.fizso);
-            this.Controls.Add(this.fizort);
             this.Controls.Add(this.ff);
             this.Controls.Add(this.fv);
             this.Controls.Add(this.prog);
             this.Controls.Add(this.kimya);
-            this.Controls.Add(this.mat);
             this.Controls.Add(this.lab);
             this.Controls.Add(this.fizik);
             this.Controls.Add(this.sorgulananOgrenciNo);
@@ -533,8 +393,6 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "notGiris";
@@ -550,8 +408,6 @@ namespace WindowsFormsApp2
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button7;
@@ -567,28 +423,18 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button fizik;
         private System.Windows.Forms.Button lab;
-        private System.Windows.Forms.Button mat;
         private System.Windows.Forms.Button kimya;
         private System.Windows.Forms.Button prog;
         private System.Windows.Forms.TextBox fv;
         private System.Windows.Forms.TextBox ff;
-        private System.Windows.Forms.TextBox fizort;
-        private System.Windows.Forms.TextBox fizso;
-        private System.Windows.Forms.TextBox progso;
-        private System.Windows.Forms.TextBox progort;
         private System.Windows.Forms.TextBox pf;
         private System.Windows.Forms.TextBox pv;
-        private System.Windows.Forms.TextBox labso;
-        private System.Windows.Forms.TextBox labort;
         private System.Windows.Forms.TextBox lf;
         private System.Windows.Forms.TextBox lv;
-        private System.Windows.Forms.TextBox matso;
-        private System.Windows.Forms.TextBox matort;
         private System.Windows.Forms.TextBox mf;
         private System.Windows.Forms.TextBox mv;
-        private System.Windows.Forms.TextBox kimso;
-        private System.Windows.Forms.TextBox kimort;
         private System.Windows.Forms.TextBox kf;
         private System.Windows.Forms.TextBox kv;
+        private System.Windows.Forms.Button button1;
     }
 }
