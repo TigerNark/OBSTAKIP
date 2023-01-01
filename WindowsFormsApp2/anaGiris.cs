@@ -227,7 +227,7 @@ namespace WindowsFormsApp2
             {
                 e.Handled = true;//bunların dışındaysa hiçbirisini yazdırma
             }
-        }
+        } 
 
         private void anaGiris_Load(object sender, EventArgs e)
         {
