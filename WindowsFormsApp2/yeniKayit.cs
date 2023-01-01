@@ -72,10 +72,11 @@ namespace WindowsFormsApp2
             string ogrencino = ogrnotext.Text;
 
             sorgu1.CommandType = CommandType.Text;
-            sorgu1.CommandText = "insert into Login (ogrencino,sifre) values (@ogrencino,@sifre)";
+            sorgu1.CommandText = "insert into Login (ogrencino,sifre,kimlik_no) values (@ogrencino,@sifre,@kimlik_no)";
 
             sorgu1.Parameters.AddWithValue("@ogrencino", ogrencino);
             sorgu1.Parameters.AddWithValue("@sifre", sifre);
+            sorgu1.Parameters.AddWithValue("@kimlik_no", kimlik_no);
 
             int rowsAffected1 = sorgu1.ExecuteNonQuery();
             Console.WriteLine($"{rowsAffected} rows were updated.");
