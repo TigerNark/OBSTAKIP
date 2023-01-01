@@ -65,7 +65,7 @@ namespace WindowsFormsApp2
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(22, 93);
+            this.label2.Location = new System.Drawing.Point(50, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 31);
             this.label2.TabIndex = 11;
@@ -75,7 +75,7 @@ namespace WindowsFormsApp2
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label4.Location = new System.Drawing.Point(517, 181);
+            this.label4.Location = new System.Drawing.Point(559, 181);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 23);
             this.label4.TabIndex = 14;
@@ -85,7 +85,7 @@ namespace WindowsFormsApp2
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label5.Location = new System.Drawing.Point(269, 181);
+            this.label5.Location = new System.Drawing.Point(311, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 23);
             this.label5.TabIndex = 15;
@@ -117,9 +117,9 @@ namespace WindowsFormsApp2
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label7.Location = new System.Drawing.Point(682, 99);
+            this.label7.Location = new System.Drawing.Point(697, 94);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(145, 31);
+            this.label7.Size = new System.Drawing.Size(120, 31);
             this.label7.TabIndex = 29;
             this.label7.Text = "Öğrenci Soyad:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -127,9 +127,9 @@ namespace WindowsFormsApp2
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label8.Location = new System.Drawing.Point(496, 99);
+            this.label8.Location = new System.Drawing.Point(508, 94);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 31);
+            this.label8.Size = new System.Drawing.Size(96, 31);
             this.label8.TabIndex = 30;
             this.label8.Text = "Öğrenci Ad:";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -137,7 +137,7 @@ namespace WindowsFormsApp2
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button2.Location = new System.Drawing.Point(729, 412);
+            this.button2.Location = new System.Drawing.Point(855, 350);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 38);
             this.button2.TabIndex = 35;
@@ -148,9 +148,9 @@ namespace WindowsFormsApp2
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button3.Location = new System.Drawing.Point(316, 90);
+            this.button3.Location = new System.Drawing.Point(344, 96);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 38);
+            this.button3.Size = new System.Drawing.Size(78, 26);
             this.button3.TabIndex = 36;
             this.button3.Text = "ARA";
             this.button3.UseVisualStyleBackColor = true;
@@ -170,7 +170,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananİsim.AutoSize = true;
             this.sorgulananİsim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananİsim.Location = new System.Drawing.Point(607, 104);
+            this.sorgulananİsim.Location = new System.Drawing.Point(619, 94);
             this.sorgulananİsim.Name = "sorgulananİsim";
             this.sorgulananİsim.Size = new System.Drawing.Size(0, 20);
             this.sorgulananİsim.TabIndex = 43;
@@ -180,7 +180,7 @@ namespace WindowsFormsApp2
             // 
             this.sorgulananSoyisim.AutoSize = true;
             this.sorgulananSoyisim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.sorgulananSoyisim.Location = new System.Drawing.Point(827, 110);
+            this.sorgulananSoyisim.Location = new System.Drawing.Point(842, 95);
             this.sorgulananSoyisim.Name = "sorgulananSoyisim";
             this.sorgulananSoyisim.Size = new System.Drawing.Size(0, 20);
             this.sorgulananSoyisim.TabIndex = 44;
@@ -188,7 +188,7 @@ namespace WindowsFormsApp2
             // sorgulananOgrenciNo
             // 
             this.sorgulananOgrenciNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.sorgulananOgrenciNo.Location = new System.Drawing.Point(146, 93);
+            this.sorgulananOgrenciNo.Location = new System.Drawing.Point(174, 96);
             this.sorgulananOgrenciNo.Multiline = true;
             this.sorgulananOgrenciNo.Name = "sorgulananOgrenciNo";
             this.sorgulananOgrenciNo.Size = new System.Drawing.Size(152, 23);
@@ -198,7 +198,7 @@ namespace WindowsFormsApp2
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(38, 178);
+            this.label6.Location = new System.Drawing.Point(50, 181);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 21);
             this.label6.TabIndex = 16;
@@ -207,7 +207,7 @@ namespace WindowsFormsApp2
             // fizik
             // 
             this.fizik.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.fizik.Location = new System.Drawing.Point(42, 214);
+            this.fizik.Location = new System.Drawing.Point(54, 217);
             this.fizik.Name = "fizik";
             this.fizik.Size = new System.Drawing.Size(98, 32);
             this.fizik.TabIndex = 49;
@@ -218,7 +218,7 @@ namespace WindowsFormsApp2
             // lab
             // 
             this.lab.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.lab.Location = new System.Drawing.Point(42, 346);
+            this.lab.Location = new System.Drawing.Point(54, 349);
             this.lab.Name = "lab";
             this.lab.Size = new System.Drawing.Size(98, 32);
             this.lab.TabIndex = 51;
@@ -229,9 +229,9 @@ namespace WindowsFormsApp2
             // kimya
             // 
             this.kimya.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.kimya.Location = new System.Drawing.Point(42, 262);
+            this.kimya.Location = new System.Drawing.Point(54, 262);
             this.kimya.Name = "kimya";
-            this.kimya.Size = new System.Drawing.Size(98, 32);
+            this.kimya.Size = new System.Drawing.Size(98, 29);
             this.kimya.TabIndex = 53;
             this.kimya.Text = "KİMYA";
             this.kimya.UseVisualStyleBackColor = true;
@@ -240,7 +240,7 @@ namespace WindowsFormsApp2
             // prog
             // 
             this.prog.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.prog.Location = new System.Drawing.Point(42, 384);
+            this.prog.Location = new System.Drawing.Point(54, 387);
             this.prog.Name = "prog";
             this.prog.Size = new System.Drawing.Size(130, 32);
             this.prog.TabIndex = 54;
@@ -251,7 +251,7 @@ namespace WindowsFormsApp2
             // fv
             // 
             this.fv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.fv.Location = new System.Drawing.Point(245, 223);
+            this.fv.Location = new System.Drawing.Point(287, 223);
             this.fv.Multiline = true;
             this.fv.Name = "fv";
             this.fv.Size = new System.Drawing.Size(152, 23);
@@ -261,7 +261,7 @@ namespace WindowsFormsApp2
             // ff
             // 
             this.ff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ff.Location = new System.Drawing.Point(490, 223);
+            this.ff.Location = new System.Drawing.Point(532, 223);
             this.ff.Multiline = true;
             this.ff.Name = "ff";
             this.ff.Size = new System.Drawing.Size(152, 23);
@@ -271,7 +271,7 @@ namespace WindowsFormsApp2
             // pf
             // 
             this.pf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pf.Location = new System.Drawing.Point(490, 393);
+            this.pf.Location = new System.Drawing.Point(532, 393);
             this.pf.Multiline = true;
             this.pf.Name = "pf";
             this.pf.Size = new System.Drawing.Size(152, 23);
@@ -281,7 +281,7 @@ namespace WindowsFormsApp2
             // pv
             // 
             this.pv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pv.Location = new System.Drawing.Point(245, 393);
+            this.pv.Location = new System.Drawing.Point(287, 393);
             this.pv.Multiline = true;
             this.pv.Name = "pv";
             this.pv.Size = new System.Drawing.Size(152, 23);
@@ -291,7 +291,7 @@ namespace WindowsFormsApp2
             // lf
             // 
             this.lf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lf.Location = new System.Drawing.Point(490, 350);
+            this.lf.Location = new System.Drawing.Point(532, 350);
             this.lf.Multiline = true;
             this.lf.Name = "lf";
             this.lf.Size = new System.Drawing.Size(152, 23);
@@ -301,7 +301,7 @@ namespace WindowsFormsApp2
             // lv
             // 
             this.lv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lv.Location = new System.Drawing.Point(245, 350);
+            this.lv.Location = new System.Drawing.Point(287, 350);
             this.lv.Multiline = true;
             this.lv.Name = "lv";
             this.lv.Size = new System.Drawing.Size(152, 23);
@@ -311,7 +311,7 @@ namespace WindowsFormsApp2
             // mf
             // 
             this.mf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mf.Location = new System.Drawing.Point(490, 311);
+            this.mf.Location = new System.Drawing.Point(532, 311);
             this.mf.Multiline = true;
             this.mf.Name = "mf";
             this.mf.Size = new System.Drawing.Size(152, 23);
@@ -321,7 +321,7 @@ namespace WindowsFormsApp2
             // mv
             // 
             this.mv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mv.Location = new System.Drawing.Point(245, 311);
+            this.mv.Location = new System.Drawing.Point(287, 311);
             this.mv.Multiline = true;
             this.mv.Name = "mv";
             this.mv.Size = new System.Drawing.Size(152, 23);
@@ -331,7 +331,7 @@ namespace WindowsFormsApp2
             // kf
             // 
             this.kf.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kf.Location = new System.Drawing.Point(490, 265);
+            this.kf.Location = new System.Drawing.Point(532, 265);
             this.kf.Multiline = true;
             this.kf.Name = "kf";
             this.kf.Size = new System.Drawing.Size(152, 23);
@@ -341,7 +341,7 @@ namespace WindowsFormsApp2
             // kv
             // 
             this.kv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kv.Location = new System.Drawing.Point(245, 265);
+            this.kv.Location = new System.Drawing.Point(287, 265);
             this.kv.Multiline = true;
             this.kv.Name = "kv";
             this.kv.Size = new System.Drawing.Size(152, 23);
@@ -351,7 +351,7 @@ namespace WindowsFormsApp2
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.button1.Location = new System.Drawing.Point(42, 305);
+            this.button1.Location = new System.Drawing.Point(54, 308);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 32);
             this.button1.TabIndex = 73;
